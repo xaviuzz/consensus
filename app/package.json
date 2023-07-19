@@ -6,6 +6,10 @@
     "test": "vitest run"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "framer-motion": "^10.13.0",
     "i18next": "^22.4.15",
     "install": "^0.13.0",
     "isomorphic-fetch": "^3.0.0",
