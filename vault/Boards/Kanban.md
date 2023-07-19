@@ -12,7 +12,6 @@ kanban-plugin: basic
 
 - [ ] Poner en github actions<br>[[Boilerplate]]
 - [ ] Seleccionar iconos<br>[[Boilerplate]]
-- [ ] Implementar el design sytem #emergent <br>[[Boilerplate]]
 
 
 ## DOING
@@ -25,6 +24,7 @@ kanban-plugin: basic
 - [ ] Pelar malinali<br>[[Boilerplate]]
 - [ ] Alta de proyecto en github<br>[[Boilerplate]]
 - [ ] subida inicial del proyecto<br>[[Boilerplate]]
+- [ ] Implementar el design sytem #emergent <br>[[Boilerplate]]
 
 
 ## GONE

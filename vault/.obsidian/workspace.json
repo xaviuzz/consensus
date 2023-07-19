@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "61f05d20210467c3",
+        "id": "31a47a69b78f2c71",
         "type": "tabs",
         "children": [
           {
-            "id": "07dfd51a04a53923",
+            "id": "aceecab625153350",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "Boards/Backlog.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -91,13 +89,13 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "07dfd51a04a53923",
+  "active": "aceecab625153350",
   "lastOpenFiles": [
     "Journal/2023-07-19.md",
-    "Journal/2023-07-18.md",
     "Boards/Kanban.md",
-    "PBI/Boilerplate.md",
     "Boards/Backlog.md",
+    "Journal/2023-07-18.md",
+    "PBI/Boilerplate.md",
     "Templates/PBI.md",
     "Templates/Daily.md",
     "Assets/Pasted image 20230717215131.png",
