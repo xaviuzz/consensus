@@ -1,0 +1,123 @@
+{
+  "main": {
+    "id": "6da7609b4752ccb8",
+    "type": "split",
+    "children": [
+      {
+        "id": "61f05d20210467c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07dfd51a04a53923",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "Boards/Backlog.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fdf96c9f377e5b12",
+    "type": "split",
+    "children": [
+      {
+        "id": "fbaa87e916d106c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8bc3567a6744668d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8111f82c44f74c97",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "a42d9b683af99c34",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "54b05bd15f34b5bc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "de063b535d01aa6d",
+    "type": "split",
+    "children": [],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": true,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": true
+    }
+  },
+  "active": "07dfd51a04a53923",
+  "lastOpenFiles": [
+    "Journal/2023-07-19.md",
+    "Journal/2023-07-18.md",
+    "Boards/Kanban.md",
+    "PBI/Boilerplate.md",
+    "Boards/Backlog.md",
+    "Templates/PBI.md",
+    "Templates/Daily.md",
+    "Assets/Pasted image 20230717215131.png",
+    "Assets/Pasted image 20230717215310.png",
+    "Assets/Pasted image 20230717220909.png",
+    "Boards/MoodBoard.canvas",
+    "Assets/Pasted image 20230717214849.png",
+    "Assets/Pasted image 20230717214759.png",
+    "Assets/Pasted image 20230717214410.png",
+    "Assets/Pasted image 20230717214001.png",
+    "Assets/Pasted image 20230717213707.png",
+    "Assets/Pasted image 20230717213635.png",
+    "Assets/Pasted image 20230717213540.png",
+    "Inbox/MoodBoard.md",
+    "2023-07-17.md",
+    "Templates",
+    "Assets",
+    "Inbox",
+    "Journal",
+    "Boards",
+    "PBI"
+  ]
+}

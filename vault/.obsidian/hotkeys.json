@@ -1,0 +1,19 @@
+{
+  "quickadd:choice:1fceb766-6d1e-45e3-9e92-8d6c5e829186": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "J"
+    }
+  ],
+  "quickadd:choice:9c5857ad-da2b-4ffd-9572-a5498219553e": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "K"
+    }
+  ],
+  "editor:insert-link": []
+}
