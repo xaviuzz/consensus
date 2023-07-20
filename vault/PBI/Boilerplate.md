@@ -3,11 +3,11 @@ release: '0'
 ---
 
 ## DoD
-- [ ] github
-- [ ] Dockerizado
+- [x] github
+- [x] Dockerizado
 - [ ] Ci (github actions)
-- [ ] Sistema de disenyo
-- [ ] I18N
+- [x] Sistema de disenyo
+- [x] I18N
 
 
 he elegido https://chakra-ui.com/ como sistema de disenyo

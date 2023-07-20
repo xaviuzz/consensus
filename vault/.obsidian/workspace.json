@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "31a47a69b78f2c71",
+        "id": "02d57109cd8b7ba1",
         "type": "tabs",
         "children": [
           {
-            "id": "aceecab625153350",
+            "id": "8dd18b45896bc9b2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Templates/PBI.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -58,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#emergent",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 317.51103591918945
   },
   "right": {
     "id": "de063b535d01aa6d",
@@ -89,26 +94,38 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "aceecab625153350",
+  "active": "8dd18b45896bc9b2",
   "lastOpenFiles": [
+    "Templates/Daily.md",
+    "PBI/Show proposal.md",
+    "PBI/Secure access.md",
+    "PBI/Propose a consensus.md",
+    "PBI/Proposals list.md",
+    "PBI/Notify new proposal.md",
+    "PBI/Identify actions.md",
+    "PBI/Boilerplate.md",
+    "Journal/2023-07-20.md",
     "Journal/2023-07-19.md",
+    "Journal/2023-07-18.md",
+    "Docs/Walking Skeleton.md",
+    "Docs/Naturaleza del Producto.md",
+    "Boards/Product.canvas",
+    "Boards/MoodBoard.canvas",
     "Boards/Kanban.md",
     "Boards/Backlog.md",
-    "Journal/2023-07-18.md",
-    "PBI/Boilerplate.md",
+    "Boards/Product Map.md",
     "Templates/PBI.md",
-    "Templates/Daily.md",
-    "Assets/Pasted image 20230717215131.png",
-    "Assets/Pasted image 20230717215310.png",
     "Assets/Pasted image 20230717220909.png",
-    "Boards/MoodBoard.canvas",
+    "Assets/Pasted image 20230717213707.png",
+    "Assets/Pasted image 20230717215310.png",
+    "Assets/Pasted image 20230717215131.png",
     "Assets/Pasted image 20230717214849.png",
     "Assets/Pasted image 20230717214759.png",
     "Assets/Pasted image 20230717214410.png",
     "Assets/Pasted image 20230717214001.png",
-    "Assets/Pasted image 20230717213707.png",
-    "Assets/Pasted image 20230717213635.png",
     "Assets/Pasted image 20230717213540.png",
+    "Assets/Pasted image 20230717213635.png",
+    "Docs",
     "Inbox/MoodBoard.md",
     "2023-07-17.md",
     "Templates",

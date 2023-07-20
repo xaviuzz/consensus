@@ -10,8 +10,9 @@ kanban-plugin: basic
 
 ## TODO
 
-- [ ] Poner en github actions<br>[[Boilerplate]]
-- [ ] Seleccionar iconos<br>[[Boilerplate]]
+- [ ] Poner en github actions<br>[[Boilerplate]]<br>#Task
+- [ ] Seleccionar iconos<br>[[Boilerplate]]<br>#Chore
+- [ ] Rehacer favico<br>[[Boilerplate]]<br>#Chore
 
 
 ## DOING
@@ -24,7 +25,7 @@ kanban-plugin: basic
 - [ ] Pelar malinali<br>[[Boilerplate]]
 - [ ] Alta de proyecto en github<br>[[Boilerplate]]
 - [ ] subida inicial del proyecto<br>[[Boilerplate]]
-- [ ] Implementar el design sytem #emergent <br>[[Boilerplate]]
+- [ ] Implementar el design sytem #Emergent <br>[[Boilerplate]]
 
 
 ## GONE
@@ -35,6 +36,6 @@ kanban-plugin: basic
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic"}
+{"kanban-plugin":"basic","hide-tags-in-title":true,"tag-colors":[{"tagKey":"#Emergent","color":"rgba(132, 140, 155, 1)","backgroundColor":"rgba(25, 99, 33, 0.74)"},{"tagKey":"#Chore","color":"","backgroundColor":"rgba(37, 91, 182, 0.62)"},{"tagKey":"#Task","color":"","backgroundColor":"rgba(135, 72, 15, 0.49)"}]}
 ```
 %%

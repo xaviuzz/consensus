@@ -2,13 +2,7 @@
 	"nodes":[
 		{"type":"file","file":"Assets/Pasted image 20230717213500.png","id":"ab3881ac01506441","x":-580,"y":-460,"width":256,"height":400},
 		{"type":"file","file":"Assets/Pasted image 20230717213540.png","id":"0a8cbf8baab0a863","x":-300,"y":-460,"width":277,"height":400},
-		{"type":"file","file":"Assets/Pasted image 20230717213635.png","id":"189523196ebaa965","x":-640,"y":-880,"width":267,"height":400},
 		{"type":"file","file":"Assets/Pasted image 20230717213707.png","id":"6f8997a816128bc2","x":-324,"y":-880,"width":376,"height":400},
-		{"type":"file","file":"Assets/Pasted image 20230717214410.png","id":"95b223943c97de9f","x":-842,"y":-460,"width":202,"height":400},
-		{"type":"file","file":"Assets/Pasted image 20230717214759.png","id":"4a854bace60513ef","x":562,"y":-616,"width":330,"height":400},
-		{"type":"file","file":"Assets/Pasted image 20230717214849.png","id":"bd8e6bfd24b40663","x":800,"y":-320,"width":320,"height":355},
-		{"type":"file","file":"Assets/Pasted image 20230717215131.png","id":"995641e341b3799e","x":1600,"y":-880,"width":443,"height":615},
-		{"type":"file","file":"Assets/Pasted image 20230717215310.png","id":"e5e7b7bd37d6cf33","x":1920,"y":-753,"width":437,"height":587},
 		{"type":"link","url":"https://matthewsmith.website/now/2020-09-30","id":"538d297ae135aae1","x":-440,"y":-3000,"width":800,"height":982},
 		{"type":"link","url":"https://www.openweb.com/high-impact-campaigns/","id":"47ce7891c8bc5dfe","x":240,"y":-2080,"width":1160,"height":900},
 		{"type":"file","file":"Assets/Pasted image 20230717220909.png","id":"fa6c0fc7294e912e","x":-941,"y":-2177,"width":400,"height":97},

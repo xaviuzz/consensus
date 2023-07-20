@@ -6,6 +6,12 @@ kanban-plugin: basic
 
 ## Harvest
 
+- [ ] [[Secure access]]
+- [ ] [[Propose a consensus]]
+- [ ] [[Proposals list]]
+- [ ] [[Show proposal]]
+- [ ] [[Notify new proposal]]
+- [ ] [[Identify actions]]
 
 
 ## Proposed
