@@ -11,7 +11,6 @@ kanban-plugin: basic
 ## TODO
 
 - [ ] Poner en github actions<br>[[Boilerplate]]<br>#Task
-- [ ] Seleccionar iconos<br>[[Boilerplate]]<br>#Chore
 - [ ] Rehacer favico<br>[[Boilerplate]]<br>#Chore
 
 
@@ -30,6 +29,7 @@ kanban-plugin: basic
 
 ## GONE
 
+- [ ] Seleccionar iconos<br>[[Boilerplate]]<br>#Chore
 
 
 
