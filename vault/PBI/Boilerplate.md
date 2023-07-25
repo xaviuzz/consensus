@@ -5,7 +5,7 @@ release: '0'
 ## DoD
 - [x] github
 - [x] Dockerizado
-- [ ] Ci (github actions)
+- [x] Ci (github actions)
 - [x] Sistema de disenyo
 - [x] I18N
 

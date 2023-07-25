@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "65fe52ef6b3bee80",
+        "id": "87a03ae50d8763c7",
         "type": "tabs",
         "children": [
           {
-            "id": "646aef5aa60646b0",
+            "id": "f22c09fb67e2470f",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Boards/Kanban.md"
+                "file": "PBI/Boilerplate.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -91,11 +94,12 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "646aef5aa60646b0",
+  "active": "f22c09fb67e2470f",
   "lastOpenFiles": [
+    "PBI/ammend proposal.md",
+    "Boards/Kanban.md",
     "Boards/MoodBoard.canvas",
     "Assets/Pasted image 20230717213540.png",
-    "Boards/Kanban.md",
     "Boards/Product Map.md",
     "Boards/Product.canvas",
     "Docs/Walking Skeleton.md",
