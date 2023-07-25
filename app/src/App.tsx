@@ -1,14 +1,18 @@
 import React from "react"
-import './infrastructure/i18n'
-import { ChakraProvider } from '@chakra-ui/react'
-import Header from "./components/Header"
-
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import Agora from "./views/Agora"
+import Login from "./views/Login"
+import Settings from "./infrastructure/settings"
 const App: React.FC = () => {
 
   return (
-    <ChakraProvider>
-      <Header /> 
-    </ChakraProvider>
+    <BrowserRouter>
+      <Routes>
+        <Route path={Settings.loginPath()} element={<Login />} />
+        <Route path="/agora" element={<Agora />} />
+        <Route path="/" element={<Login />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 export default App

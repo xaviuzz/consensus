@@ -7,4 +7,8 @@ export default class Settings{
   public static appName():string{
     return 'CONSENSUS'
   }
+
+  public static loginPath():string{
+    return '/login'
+  }
 }

@@ -6,14 +6,35 @@
       {
         "id": "87a03ae50d8763c7",
         "type": "tabs",
+        "dimension": 64.87716105550501,
         "children": [
           {
-            "id": "f22c09fb67e2470f",
+            "id": "da5e5c4c896502c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PBI/Boilerplate.md",
+                "file": "Journal/2023-07-25.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "f1a97d797b8d01db",
+        "type": "tabs",
+        "dimension": 35.122838944494994,
+        "children": [
+          {
+            "id": "e97cabd6d177f2e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PBI/Acceso seguro.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,10 +115,14 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "f22c09fb67e2470f",
+  "active": "da5e5c4c896502c7",
   "lastOpenFiles": [
-    "PBI/ammend proposal.md",
     "Boards/Kanban.md",
+    "Journal/2023-07-25.md",
+    "PBI/Acceso seguro.md",
+    "Boards/Backlog.md",
+    "PBI/Boilerplate.md",
+    "PBI/ammend proposal.md",
     "Boards/MoodBoard.canvas",
     "Assets/Pasted image 20230717213540.png",
     "Boards/Product Map.md",
@@ -106,10 +131,8 @@
     "Docs/Naturaleza del Producto.md",
     "Docs/MVP.md",
     "Docs/A jugar!.md",
-    "PBI/Secure access.md",
     "Journal/2023-07-20.md",
     "Journal/2023-07-24.md",
-    "Boards/Backlog.md",
     "Templates/PBI.md",
     "Templates/Daily.md",
     "PBI/Show proposal.md",
@@ -117,7 +140,6 @@
     "PBI/Proposals list.md",
     "PBI/Notify new proposal.md",
     "PBI/Identify actions.md",
-    "PBI/Boilerplate.md",
     "Journal/2023-07-19.md",
     "Journal/2023-07-18.md",
     "Assets/Pasted image 20230717220909.png",

@@ -6,7 +6,6 @@ kanban-plugin: basic
 
 ## Harvest
 
-- [ ] [[Secure access]]
 - [ ] [[Propose a consensus]]
 - [ ] [[Proposals list]]
 - [ ] [[Show proposal]]
@@ -20,15 +19,16 @@ kanban-plugin: basic
 
 ## Todo
 
+- [ ] [[Acceso seguro]]
 
 
 ## Doing
 
-- [ ] [[Boilerplate]]
 
 
 ## Done
 
+- [ ] [[Boilerplate]]
 
 
 

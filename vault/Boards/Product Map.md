@@ -10,7 +10,7 @@ kanban-plugin: basic
 
 ## Secure
 
-- [ ] [[Secure access]]<br>#Walking_skeleton
+- [ ] [[Acceso seguro]]<br>#Walking_skeleton
 - [ ] [[change password]]<br>#A_jugar
 
 
