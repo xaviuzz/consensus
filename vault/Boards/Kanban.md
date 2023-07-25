@@ -11,7 +11,6 @@ kanban-plugin: basic
 ## TODO
 
 - [ ] Poner en github actions<br>[[Boilerplate]]<br>#Task
-- [ ] Rehacer favico<br>[[Boilerplate]]<br>#Chore
 
 
 ## DOING
@@ -20,6 +19,7 @@ kanban-plugin: basic
 
 ## DONE
 
+- [ ] Rehacer favico<br>[[Boilerplate]]<br>#Chore
 - [ ] Seleccionar design system<br>[[Boilerplate]]
 - [ ] Pelar malinali<br>[[Boilerplate]]
 - [ ] Alta de proyecto en github<br>[[Boilerplate]]

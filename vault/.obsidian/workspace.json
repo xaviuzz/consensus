@@ -11,12 +11,9 @@
             "id": "646aef5aa60646b0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "PBI/Secure access.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Boards/Kanban.md"
               }
             }
           }
@@ -96,14 +93,18 @@
   },
   "active": "646aef5aa60646b0",
   "lastOpenFiles": [
-    "Journal/2023-07-20.md",
-    "Journal/2023-07-24.md",
-    "Docs/Naturaleza del Producto.md",
-    "PBI/Secure access.md",
+    "Boards/MoodBoard.canvas",
+    "Assets/Pasted image 20230717213540.png",
+    "Boards/Kanban.md",
     "Boards/Product Map.md",
     "Boards/Product.canvas",
-    "Boards/Kanban.md",
-    "Boards/MoodBoard.canvas",
+    "Docs/Walking Skeleton.md",
+    "Docs/Naturaleza del Producto.md",
+    "Docs/MVP.md",
+    "Docs/A jugar!.md",
+    "PBI/Secure access.md",
+    "Journal/2023-07-20.md",
+    "Journal/2023-07-24.md",
     "Boards/Backlog.md",
     "Templates/PBI.md",
     "Templates/Daily.md",
@@ -115,7 +116,6 @@
     "PBI/Boilerplate.md",
     "Journal/2023-07-19.md",
     "Journal/2023-07-18.md",
-    "Docs/Walking Skeleton.md",
     "Assets/Pasted image 20230717220909.png",
     "Assets/Pasted image 20230717213707.png",
     "Assets/Pasted image 20230717215310.png",
@@ -124,7 +124,6 @@
     "Assets/Pasted image 20230717214759.png",
     "Assets/Pasted image 20230717214410.png",
     "Assets/Pasted image 20230717214001.png",
-    "Assets/Pasted image 20230717213540.png",
     "Assets/Pasted image 20230717213635.png",
     "Docs",
     "Templates",

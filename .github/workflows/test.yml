@@ -1,0 +1,31 @@
+name: Test
+
+on:
+  push:
+    branches:
+    - main
+  
+jobs:
+  docker:
+    timeout-minutes: 10
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+
+    - name: Start containers
+      run: docker-compose -f "docker-compose.yml" up -d --build
+
+    - name: Run app test
+      run: docker-compose -f "docker-compose.yml" exec -T consensus-app npm run test
+
+    - name: Run api test
+      run: docker-compose -f "docker-compose.yml" exec -T consensus-app npm run test
+
+    - name: Run e2e
+      run: docker-compose -f "docker-compose.yml" run -u root -T consensus-e2e npm run test
+
+    - name: Stop containers
+      if: always()
+      run: docker-compose -f "docker-compose.yml" down
