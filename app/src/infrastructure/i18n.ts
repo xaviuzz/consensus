@@ -7,13 +7,13 @@ i18n
     resources: {
       ca: {
         translation: {
-          'description':'Un forum per trovar consens',
+          'app.description':'Un forum per trovar consens',
         }
       },
 
       es: {
         translation: {
-          'description':'Un foro para encontrar consenso',
+          'app.description':'Un foro para encontrar consenso',
         }
       }
     },

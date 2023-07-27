@@ -11,7 +11,7 @@ const Header: React.FC = () => {
       <Heading as='h1'>
       {Settings.appName()}
       </Heading>
-      <Text>{t('description')}</Text>
+      <Text>{t('app.description')}</Text>
     </Box>
     
   )

@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1690476391223,
+      "path": "Boards/Kanban.md",
+      "title": "Tecnico"
+    },
+    {
+      "type": "file",
+      "ctime": 1690476410561,
+      "path": "Boards/Backlog.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1690476441850,
+      "path": "Boards/MoodBoard.canvas",
+      "title": "MoodBoard"
+    },
+    {
+      "type": "file",
+      "ctime": 1690476486162,
+      "path": "Boards/Product Map.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1690476496083,
+      "path": "Boards/Release Map.canvas",
+      "title": "Release map"
+    }
+  ]
+}

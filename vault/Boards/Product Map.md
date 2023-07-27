@@ -67,6 +67,6 @@ kanban-plugin: basic
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic","hide-tags-display":false,"hide-tags-in-title":true,"tag-colors":[{"tagKey":"#Walking_skeleton","color":"rgba(7, 14, 27, 1)","backgroundColor":"rgba(73, 135, 80, 0.61)"},{"tagKey":"#A_jugar","color":"rgba(202, 207, 217, 1)","backgroundColor":"rgba(173, 124, 17, 0.6)"},{"tagKey":"#MVP","color":"rgba(20, 20, 22, 1)","backgroundColor":"rgba(79, 179, 174, 0.63)"}]}
+{"kanban-plugin":"basic","hide-tags-display":false,"hide-tags-in-title":true,"tag-colors":[{"tagKey":"#Walking_skeleton","color":"rgba(7, 14, 27, 1)","backgroundColor":"rgba(73, 135, 80, 0.61)"},{"tagKey":"#A_jugar","color":"rgba(202, 207, 217, 1)","backgroundColor":"rgba(173, 124, 17, 0.6)"},{"tagKey":"#MVP","color":"rgba(20, 20, 22, 1)","backgroundColor":"rgba(79, 179, 174, 0.63)"}],"metadata-keys":[{"metadataKey":"status","label":"","shouldHideLabel":false,"containsMarkdown":false}]}
 ```
 %%

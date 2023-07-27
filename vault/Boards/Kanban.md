@@ -4,6 +4,14 @@ kanban-plugin: basic
 
 ---
 
+## CONCERNS
+
+- [ ] as String en placeholders<br>#Concern
+- [ ] Lint
+- [ ] E2E Acesibilidad
+- [ ] setPassword como prop en password
+
+
 ## BLOCKED
 
 
@@ -16,11 +24,13 @@ kanban-plugin: basic
 - [ ] Identidad en agora<br>[[Acceso seguro]]<br>#Task
 - [ ] Opcion olvidar identidad<br>[[Acceso seguro]]<br>#Task
 - [ ] endpoint logout<br>[[Acceso seguro]]<br>#Task
+- [ ] Rellenar I18Ns<br>#Chore
+- [ ] Subir Provider y Container a APP<br>#Chore
 
 
 ## DOING
 
-- [ ] Login Form<br>[[Acceso seguro]]<br>#Task
+- [ ] Login Form<br>[[Acceso seguro]]<br>#Task<br><br>Faltan los test de Password y CheckCredentials
 
 
 ## DONE

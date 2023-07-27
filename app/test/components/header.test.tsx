@@ -1,11 +1,9 @@
 import { render, screen } from "@testing-library/react"
 import React from "react"
 import Header from "../../src/components/Header"
-import appInfo from "../../package.json"
-import  userEvent from "@testing-library/user-event"
 
 describe("Header", () => {
-  it("has three labels", () => {
+  it("has the name of the app", () => {
     SUT.render()
     const name = screen.getByText("CONSENSUS")
     expect(name).toBeInTheDocument()
@@ -14,7 +12,6 @@ describe("Header", () => {
 })
 
 class SUT {
-
   static render() {
     render(<Header />)
   }

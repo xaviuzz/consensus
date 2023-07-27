@@ -1,5 +1,6 @@
 ---
 release: '0'
+status: done
 ---
 
 ## DoD

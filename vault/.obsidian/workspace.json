@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/2023-07-25.md",
+                "file": "Journal/2023-07-27.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -55,6 +55,21 @@
         "type": "tabs",
         "children": [
           {
+            "id": "54b05bd15f34b5bc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
             "id": "8bc3567a6744668d",
             "type": "leaf",
             "state": {
@@ -72,28 +87,8 @@
               "state": {}
             }
           }
-        ]
-      },
-      {
-        "id": "a42d9b683af99c34",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "54b05bd15f34b5bc",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -117,16 +112,17 @@
   },
   "active": "da5e5c4c896502c7",
   "lastOpenFiles": [
-    "Boards/Kanban.md",
-    "Journal/2023-07-25.md",
-    "PBI/Acceso seguro.md",
-    "Boards/Backlog.md",
-    "PBI/Boilerplate.md",
-    "PBI/ammend proposal.md",
-    "Boards/MoodBoard.canvas",
-    "Assets/Pasted image 20230717213540.png",
+    "Boards/Release Map.canvas",
     "Boards/Product Map.md",
-    "Boards/Product.canvas",
+    "Boards/MoodBoard.canvas",
+    "Boards/Backlog.md",
+    "Boards/Kanban.md",
+    "PBI/Acceso seguro.md",
+    "PBI/Boilerplate.md",
+    "Journal/2023-07-27.md",
+    "Journal/2023-07-25.md",
+    "PBI/ammend proposal.md",
+    "Assets/Pasted image 20230717213540.png",
     "Docs/Walking Skeleton.md",
     "Docs/Naturaleza del Producto.md",
     "Docs/MVP.md",
