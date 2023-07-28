@@ -18,23 +18,23 @@ kanban-plugin: basic
 
 ## TODO
 
+- [ ] Rellenar I18Ns<br>#Chore
+- [ ] Subir Provider y Container a APP<br>#Chore
 - [ ] Endpoint login<br>[[Acceso seguro]]<br>#Task
 - [ ] credenciales no validos<br>[[Acceso seguro]]<br>#Task
 - [ ] credenciales validos<br>[[Acceso seguro]]<br>#Task
 - [ ] Identidad en agora<br>[[Acceso seguro]]<br>#Task
 - [ ] Opcion olvidar identidad<br>[[Acceso seguro]]<br>#Task
 - [ ] endpoint logout<br>[[Acceso seguro]]<br>#Task
-- [ ] Rellenar I18Ns<br>#Chore
-- [ ] Subir Provider y Container a APP<br>#Chore
 
 
 ## DOING
 
-- [ ] Login Form<br>[[Acceso seguro]]<br>#Task<br><br>Faltan los test de Password y CheckCredentials
 
 
 ## DONE
 
+- [ ] Login Form<br>[[Acceso seguro]]<br>#Task
 - [ ] Hacer guarda en agora<br>[[Acceso seguro]]<br>#Task
 - [ ] Crear ruta agora<br>[[Acceso seguro]]<br>#Chore
 - [ ] Enrutar todo a login<br>[[Acceso seguro]]<br>#Chore

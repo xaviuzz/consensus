@@ -34,6 +34,7 @@ const Password:React.FC<PasswordProps>=({setPassword})=>{
           type={passType()}
           placeholder={t('password.placeholder') as string}
           onChange={(e)=>{setPassword(e.target.value)}}
+          role="textbox"
         />
         <InputRightElement>
           <IconButton

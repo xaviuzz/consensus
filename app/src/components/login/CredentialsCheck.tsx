@@ -1,5 +1,4 @@
-import { ArrowForwardIcon, NotAllowedIcon } from '@chakra-ui/icons'
-import { Button, Input, VStack } from "@chakra-ui/react"
+import { Input, VStack } from "@chakra-ui/react"
 import React, { useEffect, useState } from "react"
 import { useTranslation } from "react-i18next"
 import Password from "./Password"
