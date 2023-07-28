@@ -8,6 +8,17 @@ i18n
       ca: {
         translation: {
           'app.description':'Un forum per trovar consens',
+          login:{
+            placeholder: 'Quin es el teu login?'
+          },
+          password:{
+            placeholder: 'Quina es la teua contrasenya',
+            show: 'Mostrar la contrasenya',
+            'no.show': 'Amagar la contrasenya'
+          },
+          identity:{
+            action: 'Identificat'
+          }
         }
       },
 

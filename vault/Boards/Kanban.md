@@ -18,7 +18,6 @@ kanban-plugin: basic
 
 ## TODO
 
-- [ ] Rellenar I18Ns<br>#Chore
 - [ ] Subir Provider y Container a APP<br>#Chore
 - [ ] Endpoint login<br>[[Acceso seguro]]<br>#Task
 - [ ] credenciales no validos<br>[[Acceso seguro]]<br>#Task
@@ -34,6 +33,7 @@ kanban-plugin: basic
 
 ## DONE
 
+- [ ] Rellenar I18Ns<br>#Chore
 - [ ] Login Form<br>[[Acceso seguro]]<br>#Task
 - [ ] Hacer guarda en agora<br>[[Acceso seguro]]<br>#Task
 - [ ] Crear ruta agora<br>[[Acceso seguro]]<br>#Chore
