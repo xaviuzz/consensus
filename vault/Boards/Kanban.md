@@ -18,7 +18,6 @@ kanban-plugin: basic
 
 ## TODO
 
-- [ ] Subir Provider y Container a APP<br>#Chore
 - [ ] Endpoint login<br>[[Acceso seguro]]<br>#Task
 - [ ] credenciales no validos<br>[[Acceso seguro]]<br>#Task
 - [ ] credenciales validos<br>[[Acceso seguro]]<br>#Task
@@ -29,6 +28,7 @@ kanban-plugin: basic
 
 ## DOING
 
+- [ ] Subir Provider y Container a APP<br>#Chore
 
 
 ## DONE
