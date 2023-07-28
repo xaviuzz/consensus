@@ -28,11 +28,11 @@ kanban-plugin: basic
 
 ## DOING
 
-- [ ] Subir Provider y Container a APP<br>#Chore
 
 
 ## DONE
 
+- [ ] Subir Provider y Container a APP<br>#Chore
 - [ ] Rellenar I18Ns<br>#Chore
 - [ ] Login Form<br>[[Acceso seguro]]<br>#Task
 - [ ] Hacer guarda en agora<br>[[Acceso seguro]]<br>#Task
