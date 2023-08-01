@@ -7,9 +7,10 @@ kanban-plugin: basic
 ## CONCERNS
 
 - [ ] as String en placeholders<br>#Concern
-- [ ] Lint
-- [ ] E2E Acesibilidad
-- [ ] setPassword como prop en password
+- [ ] Lint<br>#Concern
+- [ ] E2E Acesibilidad<br>#Concern
+- [ ] setPassword como prop en password<br>#Concern
+- [ ] Quiero tener un mensaje estructurado?<br>#Concern
 
 
 ## BLOCKED
@@ -18,7 +19,6 @@ kanban-plugin: basic
 
 ## TODO
 
-- [ ] Endpoint login<br>[[Acceso seguro]]<br>#Task
 - [ ] credenciales no validos<br>[[Acceso seguro]]<br>#Task
 - [ ] credenciales validos<br>[[Acceso seguro]]<br>#Task
 - [ ] Identidad en agora<br>[[Acceso seguro]]<br>#Task
@@ -28,6 +28,7 @@ kanban-plugin: basic
 
 ## DOING
 
+- [ ] Endpoint login<br>[[Acceso seguro]]<br>#Task<br>- [/] falta test
 
 
 ## DONE
@@ -50,6 +51,7 @@ kanban-plugin: basic
 ## GONE
 
 - [ ] Seleccionar iconos<br>[[Boilerplate]]<br>#Chore
+- [ ] 
 
 
 

@@ -3,14 +3,15 @@ import users from "../users/data"
 
 export default class Authorization {
 
-  public static login(userName: string, password: string): string {
-    if (!this.isAuthorized(userName, password)) return ''
-    return Tokenizer.generate({userName, password})
+  public static login(login: string, password: string): string {
+    console.log(login, password)
+    if (!this.isAuthorized(login, password)) return ''
+    return Tokenizer.generate({login, password})
   }
 
-  private static isAuthorized(userName: string, password: string): boolean {
+  private static isAuthorized(login: string, password: string): boolean {
     const found = users.find((user) => {
-      const sameUser: boolean = user.userName == userName
+      const sameUser: boolean = user.login == login
       const samePassword: boolean = user.password == password
       return sameUser && samePassword
     })

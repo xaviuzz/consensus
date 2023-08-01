@@ -1,7 +1,8 @@
 const users = [
   {
-    userName: 'Xavi',
-    password: 'XaV1Uzz#'
+    login: 'xavi',
+    password: 'xavi',
+    handle: 'Rainbowraptor'
   }
 ]
 export default users

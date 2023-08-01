@@ -4,11 +4,12 @@ import Authorization from "../actions/authorization"
 const LoginRouter = Router()
 
 LoginRouter.post('/login', (request: Request, response: Response) => {
-  const userName: string = request.body.userName
-  const password: string = request.body.password
+  if (!request.body.message)return response.send({})
+  const login: string = request.body.message.login
+  const password: string = request.body.message.password
 
-  const token: string = Authorization.login(userName, password)
-  response.send({ token })
+  const token: string = Authorization.login(login, password)
+  response.send({ message:{token} })
 })
 
 
