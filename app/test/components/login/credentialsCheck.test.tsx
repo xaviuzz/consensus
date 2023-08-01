@@ -3,8 +3,18 @@ import React from "react"
 import CredentialsCheck from '../../../src/components/login/CredentialsCheck'
 import userEvent from '@testing-library/user-event'
 import { act } from "react-dom/test-utils"
+import {vi} from 'vitest'
+import Identity from "../../../src/services/Identity"
+import Helper from "../../../src/components/shared/helper"
+
+const checkSpy = vi.spyOn(Identity,'check')
+const errorSpy = vi.spyOn(Helper,'showError')
+
 
 describe("Credentials Check", () => {
+  const aLogin = 'a login'
+  const aPassword = 'a password'
+
   it("is disabled at start", () => {
     SUT.render()
     expect(SUT.submitButton()).toBeDisabled()
@@ -12,16 +22,31 @@ describe("Credentials Check", () => {
 
   it("is not disabled when all fields are filled", async () => {
     SUT.render()
-    await SUT.fill('a login','a password')
+    await SUT.fill(aLogin,aPassword)
     expect(SUT.submitButton()).not.toBeDisabled()
   })
    
   it("does not consider all spaces value", async () => {
     SUT.render()
-    await SUT.fill('         ','       ')
+    const blanks = '         '
+    await SUT.fill(blanks,blanks)
     expect(SUT.submitButton()).toBeDisabled()
   })
 
+  it("calls login endpoint at submit", async () => {
+    SUT.render()
+    await SUT.fill(aLogin,aPassword)
+    await SUT.submit()
+    
+    expect(checkSpy).toHaveBeenCalledWith(aLogin,aPassword)
+  })
+
+  it("displays an error message when bad credentials", async () => {
+    SUT.render()
+    await SUT.fill(aLogin,aPassword)
+    await SUT.submit()
+    expect(errorSpy).toHaveBeenCalledWith(expect.any(Function),'identity.failed')
+  })
 
 })
 
@@ -35,6 +60,14 @@ class SUT {
     return screen.getByText('identity.action')
   }
 
+  static errorMessage(){
+    return screen.getByText('identity.failed')
+  }
+
+  static async submit(){
+    await userEvent.click(this.submitButton())
+  }
+
   static async fill(login:string,password:string){
     await act(async()=>{
       await this.fillLogin(login)
@@ -45,7 +78,6 @@ class SUT {
   static async fillLogin(value:string){
     await userEvent.type(screen.getByPlaceholderText('login.placeholder'),value)
   }
-
 
   static async fillPassword(value:string){
     await userEvent.type(screen.getByPlaceholderText('password.placeholder'),value)
