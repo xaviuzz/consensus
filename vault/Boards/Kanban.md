@@ -11,6 +11,7 @@ kanban-plugin: basic
 - [ ] E2E Acesibilidad<br>#Concern
 - [ ] setPassword como prop en password<br>#Concern
 - [ ] Quiero tener un mensaje estructurado?<br>#Concern
+- [ ] Donde persisto los usuarios?<br>#Concern
 
 
 ## BLOCKED
@@ -28,11 +29,11 @@ kanban-plugin: basic
 
 ## DOING
 
-- [ ] Endpoint login<br>[[Acceso seguro]]<br>#Task<br>- [/] falta test
 
 
 ## DONE
 
+- [ ] Endpoint login<br>[[Acceso seguro]]<br>#Task
 - [ ] Subir Provider y Container a APP<br>#Chore
 - [ ] Rellenar I18Ns<br>#Chore
 - [ ] Login Form<br>[[Acceso seguro]]<br>#Task

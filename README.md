@@ -44,6 +44,7 @@ If you only want to run the unitary component tests don't need to start the appl
 
 ## Gitmoji agreement
 
+- Task done: `:white_check_mark:` ✅
 - Bug: `:bug:` 🐛
 - Refactor: `:revolving_hearts:` 💞
 - Complete Feature: `:tada:` 🎉
