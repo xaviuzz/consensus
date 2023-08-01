@@ -4,7 +4,6 @@ import users from "../users/data"
 export default class Authorization {
 
   public static login(login: string, password: string): string {
-    console.log(login, password)
     if (!this.isAuthorized(login, password)) return ''
     return Tokenizer.generate({login, password})
   }

@@ -12,6 +12,7 @@ kanban-plugin: basic
 - [ ] setPassword como prop en password<br>#Concern
 - [ ] Quiero tener un mensaje estructurado?<br>#Concern
 - [ ] Donde persisto los usuarios?<br>#Concern
+- [ ] La existencia de helper solo para poder testear al usar el Toast de chakraUI<br>#Concern
 
 
 ## BLOCKED
@@ -20,11 +21,11 @@ kanban-plugin: basic
 
 ## TODO
 
-- [ ] credenciales no validos<br>[[Acceso seguro]]<br>#Task
 - [ ] credenciales validos<br>[[Acceso seguro]]<br>#Task
 - [ ] Identidad en agora<br>[[Acceso seguro]]<br>#Task
 - [ ] Opcion olvidar identidad<br>[[Acceso seguro]]<br>#Task
 - [ ] endpoint logout<br>[[Acceso seguro]]<br>#Task
+- [ ] poner lanzamiento de test por nombre en el makefile<br>#Chore
 
 
 ## DOING
@@ -33,6 +34,7 @@ kanban-plugin: basic
 
 ## DONE
 
+- [ ] credenciales no validos<br>[[Acceso seguro]]<br>#Task
 - [ ] Endpoint login<br>[[Acceso seguro]]<br>#Task
 - [ ] Subir Provider y Container a APP<br>#Chore
 - [ ] Rellenar I18Ns<br>#Chore

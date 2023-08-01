@@ -3,10 +3,11 @@ import { Button } from "@chakra-ui/react"
 import { useTranslation } from "react-i18next"
 
 interface SubmitProps{
-  ready:boolean
+  ready:boolean,
+  onClick:()=>void
 }
 
-const Submit: React.FC<SubmitProps> = ({ready}) => {
+const Submit: React.FC<SubmitProps> = ({ready,onClick}) => {
   const {t}=useTranslation()
   
   const submitIcon = () => {
@@ -14,7 +15,11 @@ const Submit: React.FC<SubmitProps> = ({ready}) => {
     return <ArrowForwardIcon />
   }
   return (
-    <Button rightIcon={submitIcon()} isDisabled={!ready}>
+    <Button 
+      rightIcon={submitIcon()}
+      isDisabled={!ready}
+      onClick={()=>onClick()}
+    >
       {t('identity.action')}
     </Button>
   )
