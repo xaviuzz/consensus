@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f1a97d797b8d01db",
+        "id": "87a03ae50d8763c7",
         "type": "tabs",
-        "dimension": 63.7997432605905,
+        "dimension": 62.0945945945946,
         "children": [
           {
-            "id": "6b989cfa954dc9d6",
+            "id": "da5e5c4c896502c7",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -21,9 +21,9 @@
         ]
       },
       {
-        "id": "5f0c10804b104530",
+        "id": "f1a97d797b8d01db",
         "type": "tabs",
-        "dimension": 36.2002567394095,
+        "dimension": 37.9054054054054,
         "children": [
           {
             "id": "e97cabd6d177f2e2",
@@ -89,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.51103591918945
+    "width": 253.50043487548828
   },
   "right": {
     "id": "de063b535d01aa6d",
@@ -107,37 +107,37 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "6b989cfa954dc9d6",
+  "active": "da5e5c4c896502c7",
   "lastOpenFiles": [
-    "PBI/Acceso seguro.md",
+    "Journal/2023-08-02.md",
+    "Docs/La alegria de programar.md",
     "Boards/Kanban.md",
     "Journal/2023-08-01.md",
-    "Templates/PBI.md",
     "Journal/2023-07-28.md",
     "Journal/2023-07-27.md",
-    "Journal/2023-07-25.md",
-    "Journal/2023-07-24.md",
-    "Journal/2023-07-21.md",
-    "Journal/2023-07-20.md",
-    "Journal/2023-07-19.md",
-    "Journal/2023-07-18.md",
-    "Docs/Walking Skeleton.md",
-    "Docs/MVP.md",
-    "Docs/A jugar!.md",
-    "Docs/Naturaleza del Producto.md",
     "Boards/Release Map.canvas",
     "Boards/Product Map.md",
-    "Boards/Backlog.md",
     "Boards/MoodBoard.canvas",
+    "Boards/Backlog.md",
+    "PBI/Acceso seguro.md",
     "PBI/Boilerplate.md",
+    "Journal/2023-07-25.md",
     "PBI/ammend proposal.md",
     "Assets/Pasted image 20230717213540.png",
+    "Docs/Walking Skeleton.md",
+    "Docs/Naturaleza del Producto.md",
+    "Docs/MVP.md",
+    "Docs/A jugar!.md",
+    "Journal/2023-07-20.md",
+    "Journal/2023-07-24.md",
+    "Templates/PBI.md",
     "Templates/Daily.md",
     "PBI/Show proposal.md",
     "PBI/Propose a consensus.md",
     "PBI/Proposals list.md",
     "PBI/Notify new proposal.md",
     "PBI/Identify actions.md",
+    "Journal/2023-07-19.md",
     "Assets/Pasted image 20230717220909.png",
     "Assets/Pasted image 20230717213707.png",
     "Assets/Pasted image 20230717215310.png",

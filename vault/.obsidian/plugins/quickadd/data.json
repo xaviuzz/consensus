@@ -15,7 +15,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "- {{value}} \\n"
+        "format": "- {{time}}  {{value}} \\n"
       },
       "insertAfter": {
         "enabled": true,

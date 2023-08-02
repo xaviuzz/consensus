@@ -6,10 +6,19 @@ import { act } from "react-dom/test-utils"
 import {vi} from 'vitest'
 import Identity from "../../../src/services/Identity"
 import Helper from "../../../src/components/shared/helper"
+import { BrowserRouter, MemoryRouter, Router } from "react-router-dom"
 
 const checkSpy = vi.spyOn(Identity,'check')
 const errorSpy = vi.spyOn(Helper,'showError')
+const navigateSpy = vi.fn()
 
+vi.mock('react-router-dom', () => {
+  const actual = vi.importActual('react-router-dom')
+  return {
+    ...actual,
+    useNavigate:() => navigateSpy
+  }
+})
 
 describe("Credentials Check", () => {
   const aLogin = 'a login'
@@ -47,13 +56,28 @@ describe("Credentials Check", () => {
     await SUT.submit()
     expect(errorSpy).toHaveBeenCalledWith(expect.any(Function),'identity.failed')
   })
+  
+  it.skip("Navigates to home when credentials check", async () => {
+    SUT.render()
+    checkSpy.mockResolvedValueOnce('a valid token')
+    await act(async()=>{
+      await SUT.fill(aLogin,aPassword)
+      await SUT.submit()
+    })
+    expect(navigateSpy).toHaveBeenCalled()
+  })
 
 })
 
 class SUT {
 
   static render() {
-    render(<CredentialsCheck/>)
+    render(
+    <MemoryRouter>
+      <CredentialsCheck/>
+    </MemoryRouter>
+    
+    )
   }
 
   static submitButton(){

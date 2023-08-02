@@ -18,7 +18,7 @@ describe("submit", () => {
 class SUT {
 
   static render(ready:boolean) {
-    render(<Submit ready={ready}/>)
+    render(<Submit ready={ready} onClick={()=>[]}/>)
   }
 
   static button(){

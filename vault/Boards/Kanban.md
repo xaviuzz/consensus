@@ -13,6 +13,8 @@ kanban-plugin: basic
 - [ ] Quiero tener un mensaje estructurado?<br>#Concern
 - [ ] Donde persisto los usuarios?<br>#Concern
 - [ ] La existencia de helper solo para poder testear al usar el Toast de chakraUI<br>#Concern
+- [ ] JWT sin caducidad<br>#Concern
+- [ ] datos y codigo mezclados en I18n app<br>#Concern
 
 
 ## BLOCKED
@@ -21,7 +23,6 @@ kanban-plugin: basic
 
 ## TODO
 
-- [ ] credenciales validos<br>[[Acceso seguro]]<br>#Task
 - [ ] Identidad en agora<br>[[Acceso seguro]]<br>#Task
 - [ ] Opcion olvidar identidad<br>[[Acceso seguro]]<br>#Task
 - [ ] endpoint logout<br>[[Acceso seguro]]<br>#Task
@@ -30,6 +31,7 @@ kanban-plugin: basic
 
 ## DOING
 
+- [ ] credenciales validos<br>[[Acceso seguro]]<br>#Task<br>Atascado en un test aunque el comportamiento es correcto
 
 
 ## DONE

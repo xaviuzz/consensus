@@ -1,14 +1,17 @@
 import { Input, VStack, useToast } from "@chakra-ui/react"
 import React, { useEffect, useState } from "react"
 import { useTranslation } from "react-i18next"
-import Password from "./Password"
-import Submit from './Submit'
+import { useNavigate } from "react-router-dom"
+import Stash from "../../infrastructure/stash"
 import Identity from "../../services/Identity"
 import Helper from "../shared/helper"
+import Password from "./Password"
+import Submit from './Submit'
 
 const CredentialsCheck: React.FC = () => {
   const { t } = useTranslation()
   const toast = useToast()
+  const navigate = useNavigate()
   const [ready,setReady]=useState<boolean>(false)
   const [login,setLogin]=useState<string>('')
   const [password,setPassword]=useState<string>('')
@@ -29,7 +32,12 @@ const CredentialsCheck: React.FC = () => {
 
   const check= async ()=>{
     const token = await Identity.check(login,password)
-    Helper.showError(toast,t('identity.failed'))
+    if (token.trim() == ''){
+      Helper.showError(toast,t('identity.failed'))
+      return
+    }
+    Stash.saveToken(token)
+    navigate('/agora')
   }
   
   return (

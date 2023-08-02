@@ -1,6 +1,9 @@
+import Stash from "../infrastructure/stash"
+
 class Identity{
   public static isIdentified():boolean{
-    return false
+    const token = Stash.retrieveToken()
+    return token != ''
   }
 
   public static async check(login:string,password:string):Promise<string>{
