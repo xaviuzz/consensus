@@ -29,5 +29,6 @@ services:
     ports:
       - 9223:9223
     container_name: consensus-e2e
+    network_mode: host
     
     

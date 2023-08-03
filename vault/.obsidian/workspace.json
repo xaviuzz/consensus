@@ -6,15 +6,18 @@
       {
         "id": "87a03ae50d8763c7",
         "type": "tabs",
-        "dimension": 62.0945945945946,
+        "dimension": 62.094594594594604,
         "children": [
           {
             "id": "da5e5c4c896502c7",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Boards/Kanban.md"
+                "file": "Journal/2023-08-03.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -109,17 +112,18 @@
   },
   "active": "da5e5c4c896502c7",
   "lastOpenFiles": [
+    "Boards/Kanban.md",
+    "Journal/2023-08-03.md",
+    "PBI/Acceso seguro.md",
+    "Boards/Backlog.md",
     "Journal/2023-08-02.md",
     "Docs/La alegria de programar.md",
-    "Boards/Kanban.md",
     "Journal/2023-08-01.md",
     "Journal/2023-07-28.md",
     "Journal/2023-07-27.md",
     "Boards/Release Map.canvas",
     "Boards/Product Map.md",
     "Boards/MoodBoard.canvas",
-    "Boards/Backlog.md",
-    "PBI/Acceso seguro.md",
     "PBI/Boilerplate.md",
     "Journal/2023-07-25.md",
     "PBI/ammend proposal.md",
@@ -137,7 +141,6 @@
     "PBI/Proposals list.md",
     "PBI/Notify new proposal.md",
     "PBI/Identify actions.md",
-    "Journal/2023-07-19.md",
     "Assets/Pasted image 20230717220909.png",
     "Assets/Pasted image 20230717213707.png",
     "Assets/Pasted image 20230717215310.png",

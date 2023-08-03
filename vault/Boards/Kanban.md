@@ -15,6 +15,7 @@ kanban-plugin: basic
 - [ ] La existencia de helper solo para poder testear al usar el Toast de chakraUI<br>#Concern
 - [ ] JWT sin caducidad<br>#Concern
 - [ ] datos y codigo mezclados en I18n app<br>#Concern
+- [ ] Test necesita la `<MemoryRouter>`<br>#Concern
 
 
 ## BLOCKED
@@ -27,15 +28,16 @@ kanban-plugin: basic
 - [ ] Opcion olvidar identidad<br>[[Acceso seguro]]<br>#Task
 - [ ] endpoint logout<br>[[Acceso seguro]]<br>#Task
 - [ ] poner lanzamiento de test por nombre en el makefile<br>#Chore
+- [ ] Falla la IC<br>#Bug
 
 
 ## DOING
 
-- [ ] credenciales validos<br>[[Acceso seguro]]<br>#Task<br>Atascado en un test aunque el comportamiento es correcto
 
 
 ## DONE
 
+- [ ] credenciales validos<br>[[Acceso seguro]]<br>#Task
 - [ ] credenciales no validos<br>[[Acceso seguro]]<br>#Task
 - [ ] Endpoint login<br>[[Acceso seguro]]<br>#Task
 - [ ] Subir Provider y Container a APP<br>#Chore
@@ -63,6 +65,6 @@ kanban-plugin: basic
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic","hide-tags-in-title":true,"tag-colors":[{"tagKey":"#Emergent","color":"rgba(132, 140, 155, 1)","backgroundColor":"rgba(25, 99, 33, 0.74)"},{"tagKey":"#Chore","color":"","backgroundColor":"rgba(37, 91, 182, 0.62)"},{"tagKey":"#Task","color":"","backgroundColor":"rgba(135, 72, 15, 0.49)"}],"show-checkboxes":false}
+{"kanban-plugin":"basic","hide-tags-in-title":true,"tag-colors":[{"tagKey":"#Emergent","color":"rgba(132, 140, 155, 1)","backgroundColor":"rgba(25, 99, 33, 0.74)"},{"tagKey":"#Chore","color":"","backgroundColor":"rgba(37, 91, 182, 0.62)"},{"tagKey":"#Task","color":"","backgroundColor":"rgba(135, 72, 15, 0.49)"},{"tagKey":"#Bug","color":"rgba(157, 164, 179, 1)","backgroundColor":"rgba(247, 51, 7, 0.66)"}],"show-checkboxes":false}
 ```
 %%

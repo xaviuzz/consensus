@@ -5,7 +5,10 @@ import '../infrastructure/i18n'
 const Agora: React.FC = () => {
 
   return (
-    <RequireIdentity />
+    <>
+      <RequireIdentity />
+      <h1>Agora</h1>
+    </>
   )
 }
 export default Agora
