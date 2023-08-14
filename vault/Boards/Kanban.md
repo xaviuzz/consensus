@@ -16,6 +16,7 @@ kanban-plugin: basic
 - [ ] JWT sin caducidad<br>#Concern
 - [ ] datos y codigo mezclados en I18n app<br>#Concern
 - [ ] Test necesita la `<MemoryRouter>`<br>#Concern
+- [ ] Para poder hacer IC tenemos que desplegar<br>#Concern
 
 
 ## BLOCKED
@@ -27,8 +28,6 @@ kanban-plugin: basic
 - [ ] Identidad en agora<br>[[Acceso seguro]]<br>#Task
 - [ ] Opcion olvidar identidad<br>[[Acceso seguro]]<br>#Task
 - [ ] endpoint logout<br>[[Acceso seguro]]<br>#Task
-- [ ] poner lanzamiento de test por nombre en el makefile<br>#Chore
-- [ ] Falla la IC<br>#Bug
 
 
 ## DOING
@@ -58,6 +57,8 @@ kanban-plugin: basic
 ## GONE
 
 - [ ] Seleccionar iconos<br>[[Boilerplate]]<br>#Chore
+- [ ] Falla la IC<br>#Bug
+- [ ] poner lanzamiento de test por nombre en el makefile<br>#Chore<br>En realidad ya estaba
 - [ ] 
 
 

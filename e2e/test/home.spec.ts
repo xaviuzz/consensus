@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test'
 
 
 test.describe('Home page in consensus', () => {
-  const baseURL: string = 'http://consensus-app:4000/'
+  const baseURL: string = 'http://localhost:4000/'
 
   test('Has the right title', async ({ page }) => {
     page.goto(baseURL)
