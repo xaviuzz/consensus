@@ -45,6 +45,7 @@ describe("Credentials Check", () => {
   it("calls login endpoint at submit", async () => {
     SUT.render()
     await SUT.fill(aLogin,aPassword)
+    checkSpy.mockResolvedValueOnce('token')
     await SUT.submit()
     
     expect(checkSpy).toHaveBeenCalledWith(aLogin,aPassword)
@@ -53,6 +54,7 @@ describe("Credentials Check", () => {
   it("displays an error message when bad credentials", async () => {
     SUT.render()
     await SUT.fill(aLogin,aPassword)
+    checkSpy.mockResolvedValueOnce('')
     await SUT.submit()
     expect(errorSpy).toHaveBeenCalledWith(expect.any(Function),'identity.failed')
   })
