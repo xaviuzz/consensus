@@ -4,31 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "87a03ae50d8763c7",
-        "type": "tabs",
-        "dimension": 64.18002466091245,
-        "children": [
-          {
-            "id": "da5e5c4c896502c7",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Boards/Release Map.canvas",
-                "viewState": {
-                  "x": 120.83167765947553,
-                  "y": 314.1413852021107,
-                  "zoom": -0.20000000000000007
-                }
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "f1a97d797b8d01db",
         "type": "tabs",
-        "dimension": 35.81997533908755,
         "children": [
           {
             "id": "e97cabd6d177f2e2",
@@ -36,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PBI/Acceso seguro.md",
+                "file": "Docs/La alegria de programar.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -90,7 +67,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -113,13 +90,15 @@
       "obsidian-statusbar-pomo:Start pomodoro": false
     }
   },
-  "active": "da5e5c4c896502c7",
+  "active": "e97cabd6d177f2e2",
   "lastOpenFiles": [
+    "PBI/Acceso seguro.md",
+    "Docs/E.md",
+    "Journal/2023-08-16.md",
+    "Boards/Release Map.canvas",
     "Boards/Product Map.md",
     "Boards/Backlog.md",
     "Boards/Kanban.md",
-    "PBI/Acceso seguro.md",
-    "Journal/2023-08-16.md",
     "Boards/MoodBoard.canvas",
     "Docs/Naturaleza del Producto.md",
     "Docs/La alegria de programar.md",
@@ -138,7 +117,6 @@
     "Journal/2023-08-01.md",
     "Journal/2023-07-28.md",
     "Journal/2023-07-27.md",
-    "Boards/Release Map.canvas",
     "Journal/2023-07-25.md",
     "Assets/Pasted image 20230717213540.png",
     "Journal/2023-07-20.md",
