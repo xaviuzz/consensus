@@ -19,7 +19,6 @@ kanban-plugin: basic
 
 ## Todo
 
-- [ ] [[Acceso seguro]]
 
 
 ## Doing
@@ -28,6 +27,7 @@ kanban-plugin: basic
 
 ## Done
 
+- [ ] [[Acceso seguro]]
 - [ ] [[Boilerplate]]
 
 

@@ -17,13 +17,9 @@ interface withIdentityProps {
 const WithIdentity: React.FC<withIdentityProps> = ({ children }) => {
   const [handle, setHandle] = useState<string>('')
   
-  const doSet=(value:string):void=>{
-    console.log(value)
-    setHandle(value)
-  }
 
   const value: IdentityContextAPI = {
-    handle,setHandle: doSet
+    handle,setHandle
   }
 
   return <IdentityContext.Provider value={value}>{children}</IdentityContext.Provider>

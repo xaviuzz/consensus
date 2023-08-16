@@ -30,11 +30,11 @@ kanban-plugin: basic
 
 ## DOING
 
-- [ ] Opcion olvidar identidad<br>[[Acceso seguro]]<br>#Task
 
 
 ## DONE
 
+- [ ] Opcion olvidar identidad<br>[[Acceso seguro]]<br>#Task
 - [ ] Identidad en agora<br>[[Acceso seguro]]<br>#Task
 - [ ] credenciales validos<br>[[Acceso seguro]]<br>#Task
 - [ ] credenciales no validos<br>[[Acceso seguro]]<br>#Task

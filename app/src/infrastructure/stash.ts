@@ -10,12 +10,8 @@ export default class Stash{
     return localStorage.getItem(this.tokenKey) || ''
   }
 
-  public static saveHandle(handle:string):void{
-    localStorage.setItem(this.handleKey,handle)
-  }
-
-  public static retrieveHandle():string{
-    return localStorage.getItem(this.handleKey) || ''
+  public static deleteToken():void{
+    localStorage.removeItem(this.tokenKey)
   }
 
 

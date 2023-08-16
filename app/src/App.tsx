@@ -15,8 +15,8 @@ const App: React.FC = () => {
           minW={'95vw'}
           minH={'95vh'}
         >
-          <Header />
           <BrowserRouter>
+          <Header />
             <Routes>
               <Route path={Settings.loginPath()} element={<Login />} />
               <Route path="/agora" element={<Agora />} />

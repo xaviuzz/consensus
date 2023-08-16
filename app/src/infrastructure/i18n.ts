@@ -18,6 +18,9 @@ i18n
           },
           identity:{
             action: 'Identificat'
+          },
+          logout:{
+            action: 'Perdre la identitat'
           }
         }
       },

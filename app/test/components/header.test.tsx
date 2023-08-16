@@ -1,6 +1,7 @@
 import { render, screen } from "@testing-library/react"
 import React from "react"
 import Header from "../../src/components/header/Header"
+import { MemoryRouter } from "react-router-dom"
 
 describe("Header", () => {
   it("has the name of the app", () => {
@@ -13,6 +14,10 @@ describe("Header", () => {
 
 class SUT {
   static render() {
-    render(<Header />)
+    render(
+      <MemoryRouter>
+        <Header />
+      </MemoryRouter>
+    )
   }
 }
