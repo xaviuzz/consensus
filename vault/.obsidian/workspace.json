@@ -85,7 +85,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -104,25 +104,28 @@
       "switcher:Open quick switcher": true,
       "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": false,
-      "command-palette:Open command palette": true
+      "command-palette:Open command palette": true,
+      "obsidian-statusbar-pomo:Start pomodoro": false
     }
   },
   "active": "da5e5c4c896502c7",
   "lastOpenFiles": [
+    "Journal/2023-08-16.md",
+    "PBI/Acceso seguro.md",
+    "Boards/Kanban.md",
+    "Boards/MoodBoard.canvas",
     "Docs/Naturaleza del Producto.md",
     "Docs/La alegria de programar.md",
     "Docs/A jugar!.md",
     "Docs/MVP.md",
     "Docs/Walking Skeleton.md",
     "PBI/Circle members.md",
-    "PBI/Acceso seguro.md",
     "PBI/ammend proposal.md",
     "PBI/Boilerplate.md",
     "PBI/change password.md",
     "PBI/Notify new proposal.md",
     "PBI/Show proposal.md",
     "PBI/use an avatar.md",
-    "Boards/Kanban.md",
     "Journal/2023-08-03.md",
     "Journal/2023-08-02.md",
     "Boards/Backlog.md",
@@ -131,13 +134,10 @@
     "Journal/2023-07-27.md",
     "Boards/Release Map.canvas",
     "Boards/Product Map.md",
-    "Boards/MoodBoard.canvas",
     "Journal/2023-07-25.md",
     "Assets/Pasted image 20230717213540.png",
     "Journal/2023-07-20.md",
     "Journal/2023-07-24.md",
-    "Templates/PBI.md",
-    "Templates/Daily.md",
     "Assets/Pasted image 20230717220909.png",
     "Assets/Pasted image 20230717213707.png",
     "Assets/Pasted image 20230717215310.png",

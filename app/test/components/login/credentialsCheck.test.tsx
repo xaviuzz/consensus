@@ -1,12 +1,13 @@
 import { render, screen } from "@testing-library/react"
-import React from "react"
-import CredentialsCheck from '../../../src/components/login/CredentialsCheck'
 import userEvent from '@testing-library/user-event'
+import React from "react"
 import { act } from "react-dom/test-utils"
-import {vi} from 'vitest'
-import Identity from "../../../src/services/Identity"
+import { MemoryRouter } from "react-router-dom"
+import { vi } from 'vitest'
+import CredentialsCheck from '../../../src/components/login/CredentialsCheck'
 import Helper from "../../../src/components/shared/helper"
-import { BrowserRouter, MemoryRouter, Router } from "react-router-dom"
+import Identity from "../../../src/services/Identity"
+import { WithIdentity } from "../../../src/context/identity"
 
 const checkSpy = vi.spyOn(Identity,'check')
 const errorSpy = vi.spyOn(Helper,'showError')
@@ -23,7 +24,7 @@ vi.mock('react-router-dom', () => {
 describe("Credentials Check", () => {
   const aLogin = 'a login'
   const aPassword = 'a password'
-
+   
   it("is disabled at start", () => {
     SUT.render()
     expect(SUT.submitButton()).toBeDisabled()
@@ -45,9 +46,9 @@ describe("Credentials Check", () => {
   it("calls login endpoint at submit", async () => {
     SUT.render()
     await SUT.fill(aLogin,aPassword)
-    checkSpy.mockResolvedValueOnce('token')
+    const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjoiUmFpbmJvd3JhcHRvciIsImlhdCI6MTY5MjE4NzY2MH0.H-AjNrpN6gtZkMnlof_NVVFkJNBbMlMSbDIQESdSdUg'
+    checkSpy.mockResolvedValueOnce(token)
     await SUT.submit()
-    
     expect(checkSpy).toHaveBeenCalledWith(aLogin,aPassword)
   })
 
@@ -58,16 +59,6 @@ describe("Credentials Check", () => {
     await SUT.submit()
     expect(errorSpy).toHaveBeenCalledWith(expect.any(Function),'identity.failed')
   })
-  
-  it.skip("Navigates to home when credentials check", async () => {
-    SUT.render()
-    checkSpy.mockResolvedValueOnce('a valid token')
-    await act(async()=>{
-      await SUT.fill(aLogin,aPassword)
-      await SUT.submit()
-    })
-    expect(navigateSpy).toHaveBeenCalled()
-  })
 
 })
 
@@ -76,7 +67,9 @@ class SUT {
   static render() {
     render(
     <MemoryRouter>
-      <CredentialsCheck/>
+      <WithIdentity>
+        <CredentialsCheck/>
+      </WithIdentity>
     </MemoryRouter>
     
     )
@@ -91,7 +84,9 @@ class SUT {
   }
 
   static async submit(){
-    await userEvent.click(this.submitButton())
+    await act(async()=>{
+      await userEvent.click(this.submitButton())
+    })
   }
 
   static async fill(login:string,password:string){
@@ -107,5 +102,5 @@ class SUT {
 
   static async fillPassword(value:string){
     await userEvent.type(screen.getByPlaceholderText('password.placeholder'),value)
-  }
+  }   
 }

@@ -5,7 +5,13 @@ export default class Authorization {
 
   public static login(login: string, password: string): string {
     if (!this.isAuthorized(login, password)) return ''
-    return Tokenizer.generate({login, password})
+    const payload = this.getHandle(login)
+    return Tokenizer.generate({payload})
+  }
+
+  private static getHandle(login: string) {
+    const found = users.find((user) => user.login == login)
+    return found?.handle
   }
 
   private static isAuthorized(login: string, password: string): boolean {

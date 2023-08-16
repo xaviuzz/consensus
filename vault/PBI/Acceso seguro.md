@@ -15,5 +15,5 @@ Proteger bajo unos *credenciales* la *identidad* de las personas que forman el *
 - [x] La pantalla de identificacion te pide tus credenciales
 - [x] No puedes identificarte hasta que has puesto credenciales
 - [x] Si tus credenciales no corresponden a una identidad recibes un mensaje expresandotelo
-- [/] Si tus credenciales corresponden a una identidad pasas al Agora donde aparece tu identidad
+- [x] Si tus credenciales corresponden a una identidad pasas al Agora donde aparece tu identidad
 - [ ] Junto a tu identidad tienes la opcion de dejar de tener una identidad 

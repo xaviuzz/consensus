@@ -7,7 +7,8 @@
 		{"type":"link","url":"https://www.openweb.com/high-impact-campaigns/","id":"47ce7891c8bc5dfe","x":240,"y":-2080,"width":1160,"height":900},
 		{"type":"file","file":"Assets/Pasted image 20230717220909.png","id":"fa6c0fc7294e912e","x":-941,"y":-2177,"width":400,"height":97},
 		{"type":"link","url":"https://www.colophon-foundry.org/articles-guides/coign-the-most-condensed-font-ever-probably","id":"dc2206358358c14c","x":-1491,"y":-3686,"width":1118,"height":1372},
-		{"type":"link","url":"https://oudolf.com/references","id":"95875c961f8fcaf0","x":-941,"y":-1960,"width":1092,"height":960}
+		{"type":"link","url":"https://oudolf.com/references","id":"95875c961f8fcaf0","x":-941,"y":-1960,"width":1092,"height":960},
+		{"id":"d6ddf2ee39da3ddb","x":-2141,"y":-1960,"width":1200,"height":660,"type":"text","text":"```palette\nhttps://colorhunt.co/palette/f8f0e5eadbc8dac0a3102c57\n```\n\n\n```palette\nhttps://coolors.co/6f5139-ebc7a3-707669-8a644a-787055-885d41-9d7554-715f49-d7c7a5\n```\n"}
 	],
 	"edges":[]
 }

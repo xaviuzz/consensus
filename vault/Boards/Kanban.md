@@ -17,6 +17,7 @@ kanban-plugin: basic
 - [ ] datos y codigo mezclados en I18n app<br>#Concern
 - [ ] Test necesita la `<MemoryRouter>`<br>#Concern
 - [ ] Para poder hacer IC tenemos que desplegar<br>#Concern
+- [ ] Testeo de contextos<br>#Concern
 
 
 ## BLOCKED
@@ -25,17 +26,16 @@ kanban-plugin: basic
 
 ## TODO
 
-- [ ] Identidad en agora<br>[[Acceso seguro]]<br>#Task
-- [ ] Opcion olvidar identidad<br>[[Acceso seguro]]<br>#Task
-- [ ] endpoint logout<br>[[Acceso seguro]]<br>#Task
 
 
 ## DOING
 
+- [ ] Opcion olvidar identidad<br>[[Acceso seguro]]<br>#Task
 
 
 ## DONE
 
+- [ ] Identidad en agora<br>[[Acceso seguro]]<br>#Task
 - [ ] credenciales validos<br>[[Acceso seguro]]<br>#Task
 - [ ] credenciales no validos<br>[[Acceso seguro]]<br>#Task
 - [ ] Endpoint login<br>[[Acceso seguro]]<br>#Task
@@ -59,6 +59,7 @@ kanban-plugin: basic
 - [ ] Seleccionar iconos<br>[[Boilerplate]]<br>#Chore
 - [ ] Falla la IC<br>#Bug
 - [ ] poner lanzamiento de test por nombre en el makefile<br>#Chore<br>En realidad ya estaba
+- [ ] endpoint logout<br>[[Acceso seguro]]<br>#Task
 - [ ] 
 
 
