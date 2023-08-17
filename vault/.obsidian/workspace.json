@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f1a97d797b8d01db",
+        "id": "7b5e528e29ceec8c",
         "type": "tabs",
         "children": [
           {
-            "id": "e97cabd6d177f2e2",
+            "id": "5fd23a0a08f611d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/La alegria de programar.md",
+                "file": "Journal/2023-08-17.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#concern",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,11 +67,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 253.50043487548828
+    "width": 239.5
   },
   "right": {
     "id": "de063b535d01aa6d",
@@ -90,52 +90,55 @@
       "obsidian-statusbar-pomo:Start pomodoro": false
     }
   },
-  "active": "e97cabd6d177f2e2",
+  "active": "5fd23a0a08f611d4",
   "lastOpenFiles": [
-    "PBI/Acceso seguro.md",
-    "Docs/E.md",
-    "Journal/2023-08-16.md",
-    "Boards/Release Map.canvas",
-    "Boards/Product Map.md",
-    "Boards/Backlog.md",
+    "Docs/CONSENSUS.md",
+    "Templates/PBI.md",
+    "Docs/Notes/WAI.md",
+    "Docs/Notes/test E2E.md",
+    "Docs/Notes/Playwright.md",
+    "Journal/2023-08-17.md",
+    "Docs/Concerns/E2E Acesibilidad.md",
     "Boards/Kanban.md",
-    "Boards/MoodBoard.canvas",
-    "Docs/Naturaleza del Producto.md",
-    "Docs/La alegria de programar.md",
-    "Docs/A jugar!.md",
-    "Docs/MVP.md",
-    "Docs/Walking Skeleton.md",
-    "PBI/Circle members.md",
-    "PBI/ammend proposal.md",
-    "PBI/Boilerplate.md",
-    "PBI/change password.md",
-    "PBI/Notify new proposal.md",
-    "PBI/Show proposal.md",
-    "PBI/use an avatar.md",
-    "Journal/2023-08-03.md",
-    "Journal/2023-08-02.md",
-    "Journal/2023-08-01.md",
-    "Journal/2023-07-28.md",
-    "Journal/2023-07-27.md",
-    "Journal/2023-07-25.md",
-    "Assets/Pasted image 20230717213540.png",
-    "Journal/2023-07-20.md",
-    "Journal/2023-07-24.md",
+    "Docs/Notes/Acuerdos.md",
+    "Templates/Date.md",
+    "Docs/Releases/3_A jugar!.md",
+    "Docs/Releases/2_MVP.md",
+    "Docs/Releases/1_Walking Skeleton.md",
+    "Boards/Release Map.canvas",
+    "Docs/Notes/React.md",
+    "Docs/Notes/Naturaleza del Producto.md",
+    "Docs/Notes/La alegria de programar.md",
+    "Docs/Notes/I18Next.md",
+    "Docs/Notes/eslint.md",
+    "Docs/Notes/ChakraUI.md",
+    "Docs/Notes/asercion de no-nulo.md",
+    "Docs/Notes",
+    "Docs/Concerns/as String en placeholders.md",
+    "Docs/Concerns/Lint.md",
+    "Templates/Time.md",
+    "Templates/Concern.md",
+    "Docs/Tecnicas",
+    "Docs/Acuerdos",
+    "Inbox",
+    "Boards/Backlog.md",
+    "Boards/Product Map.md",
     "Assets/Pasted image 20230717220909.png",
+    "Docs/Concerns",
+    "Docs/Releases",
     "Assets/Pasted image 20230717213707.png",
+    "Assets/Pasted image 20230717213540.png",
+    "Assets/Pasted image 20230717213500.png",
+    "Boards/MoodBoard.canvas",
     "Assets/Pasted image 20230717215310.png",
     "Assets/Pasted image 20230717215131.png",
     "Assets/Pasted image 20230717214849.png",
     "Assets/Pasted image 20230717214759.png",
     "Assets/Pasted image 20230717214410.png",
     "Assets/Pasted image 20230717214001.png",
-    "Assets/Pasted image 20230717213635.png",
     "Docs",
     "Templates",
     "Assets",
-    "Inbox",
-    "Journal",
-    "Boards",
-    "PBI"
+    "Inbox"
   ]
 }

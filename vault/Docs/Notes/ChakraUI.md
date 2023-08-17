@@ -1,0 +1,3 @@
+https://chakra-ui.com/getting-started
+
+Chakra UI es una biblioteca de componentes de interfaz de usuario (UI) para React que proporciona un conjunto de componentes estilizados y reutilizables que facilitan la creación de interfaces de usuario atractivas y coherentes en aplicaciones web. Estos componentes están diseñados para ser altamente personalizables y accesibles, lo que agiliza el proceso de desarrollo y mejora la experiencia del usuario.

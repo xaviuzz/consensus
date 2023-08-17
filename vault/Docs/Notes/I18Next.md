@@ -1,0 +1,3 @@
+https://github.com/i18next/i18next
+
+El paquete `i18next` en TypeScript es una librería de internacionalización (i18n) que permite gestionar y manejar la traducción de contenido en aplicaciones. Permite separar el contenido traducible del código fuente, lo que facilita la creación de aplicaciones multilingües al proporcionar una forma de cargar y cambiar dinámicamente los textos en diferentes idiomas según las preferencias del usuario.

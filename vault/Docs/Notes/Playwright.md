@@ -1,0 +1,3 @@
+https://playwright.dev/
+
+Playwright es una herramienta de automatización de navegadores web desarrollada por Microsoft. Permite a los desarrolladores escribir scripts para simular interacciones en navegadores como Chrome, Firefox y WebKit. Con Playwright, se pueden realizar pruebas automatizadas, capturar capturas de pantalla, interactuar con elementos de la página y realizar tareas relacionadas con el navegador de manera programática.

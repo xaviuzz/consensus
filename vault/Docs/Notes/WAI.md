@@ -1,0 +1,3 @@
+https://www.w3.org/WAI/
+
+WAI (Web Accessibility Initiative) es una iniciativa del W3C (World Wide Web Consortium) que se enfoca en mejorar la accesibilidad web para personas con discapacidades. Establece estándares y pautas para hacer que los sitios web y las aplicaciones sean más accesibles, asegurando que puedan ser utilizados por todas las personas, independientemente de sus habilidades o discapacidades.
