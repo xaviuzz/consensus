@@ -22,7 +22,6 @@ kanban-plugin: basic
 
 ## TODO
 
-- [ ] Usar asercion de no nulo <br>Cambiar en :<br>- src/components/login/CredentialsCheck.tsx:<br>- src/components/login/Password.tsx:<br><br>[[as String en placeholders]]<br>#Chore
 - [ ] Poner eslint con los plugins:<br>	- [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)<br>	- [React](https://github.com/jsx-eslint/eslint-plugin-react)<br>	- [ChakraUI](https://github.com/yukukotani/eslint-plugin-chakra-ui)<br>	<br>[[Lint]]<br>#Chore
 - [ ] Eliminar todos los warnings y errores identificados por el Linter<br><br>[[Lint]]<br>#Chore
 - [ ] Incorporar un test E2E accesibilidad<br><br>[[E2E Acesibilidad]]<br>#Emergent
@@ -35,6 +34,7 @@ kanban-plugin: basic
 
 ## DONE
 
+- [ ] Usar asercion de no nulo <br>Cambiar en :<br>- src/components/login/CredentialsCheck.tsx:<br>- src/components/login/Password.tsx:<br><br>[[as String en placeholders]]<br>#Chore
 - [ ] [[E2E Acesibilidad]]<br>#Concern
 - [ ] [[Lint]]<br>#Concern
 - [ ] [[as String en placeholders]]<br>#Concern

@@ -32,7 +32,7 @@ const Password:React.FC<PasswordProps>=({setPassword})=>{
     <InputGroup>
         <Input
           type={passType()}
-          placeholder={t('password.placeholder') as string}
+          placeholder={t('password.placeholder')!}
           onChange={(e)=>{setPassword(e.target.value)}}
           role="textbox"
         />

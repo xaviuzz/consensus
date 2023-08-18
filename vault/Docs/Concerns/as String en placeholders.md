@@ -6,7 +6,7 @@ date: 2023-08-17
 
 Por lo visto [[ChakraUI]] exigue que los placeholders sean string y el useTranslation de [[I18Next]]  puede devolver undefined aunque nunca es nuestro caso or que tenemos el default a la propiedad.
 
-```code
+```js
 <Input 
 placeholder={t('login.placeholder') as string} 
 onChange={(e)=>{setLogin(e.target.value)}}

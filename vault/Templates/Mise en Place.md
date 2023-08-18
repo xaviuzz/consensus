@@ -1,0 +1,6 @@
+- [ ] Jarra de agua
+- [ ] Libreta
+- [ ] Pluma
+- [ ] Terminales
+- [ ] VSCode
+- [ ] Browser

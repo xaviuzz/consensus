@@ -1,6 +1,6 @@
 
 ## Placeholders
-Usar asercion de no-nulo para los placeholders de [[ChakraUI]]
+Usar [[asercion de no-nulo]]para los placeholders de [[ChakraUI]]
 
 from :[[as String en placeholders]]
 

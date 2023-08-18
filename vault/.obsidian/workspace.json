@@ -4,19 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7b5e528e29ceec8c",
+        "id": "9fde9b3cf09c5c56",
         "type": "tabs",
         "children": [
           {
-            "id": "5fd23a0a08f611d4",
+            "id": "2b4b2ab80e8afe92",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Journal/2023-08-17.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Boards/Kanban.md"
               }
             }
           }
@@ -87,20 +84,24 @@
       "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": true,
-      "obsidian-statusbar-pomo:Start pomodoro": false
+      "obsidian-statusbar-pomo:Start pomodoro": false,
+      "graph:Open graph view": false
     }
   },
-  "active": "5fd23a0a08f611d4",
+  "active": "2b4b2ab80e8afe92",
   "lastOpenFiles": [
-    "Docs/CONSENSUS.md",
+    "Journal/2023-08-18.md",
+    "Boards/Kanban.md",
+    "Templates/Mise en Place.md",
+    "Docs/Concerns/as String en placeholders.md",
     "Templates/PBI.md",
+    "Docs/Notes/Acuerdos.md",
+    "Docs/CONSENSUS.md",
+    "Journal/2023-08-17.md",
     "Docs/Notes/WAI.md",
     "Docs/Notes/test E2E.md",
     "Docs/Notes/Playwright.md",
-    "Journal/2023-08-17.md",
     "Docs/Concerns/E2E Acesibilidad.md",
-    "Boards/Kanban.md",
-    "Docs/Notes/Acuerdos.md",
     "Templates/Date.md",
     "Docs/Releases/3_A jugar!.md",
     "Docs/Releases/2_MVP.md",
@@ -114,15 +115,12 @@
     "Docs/Notes/ChakraUI.md",
     "Docs/Notes/asercion de no-nulo.md",
     "Docs/Notes",
-    "Docs/Concerns/as String en placeholders.md",
     "Docs/Concerns/Lint.md",
     "Templates/Time.md",
     "Templates/Concern.md",
     "Docs/Tecnicas",
     "Docs/Acuerdos",
     "Inbox",
-    "Boards/Backlog.md",
-    "Boards/Product Map.md",
     "Assets/Pasted image 20230717220909.png",
     "Docs/Concerns",
     "Docs/Releases",
