@@ -14,6 +14,7 @@ kanban-plugin: basic
 - [ ] Test necesita la `<MemoryRouter>`<br>#Concern
 - [ ] Para poder hacer IC tenemos que desplegar<br>#Concern
 - [ ] Testeo de contextos<br>#Concern
+- [ ] El lintado propio de chackra no funciona<br>#Concern
 
 
 ## BLOCKED
@@ -22,18 +23,18 @@ kanban-plugin: basic
 
 ## TODO
 
-- [ ] Eliminar todos los warnings y errores identificados por el Linter<br><br>[[Lint]]<br>#Chore
-- [ ] Incorporar un test E2E accesibilidad<br><br>[[E2E Acesibilidad]]<br>#Emergent
 - [ ] cambiar el nombre setPassword como prop en password<br>/app/src/components/login/Password.tsx<br>#Chore
 
 
 ## DOING
 
-- [ ] Poner eslint con los plugins:<br>	- [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)<br>	- [React](https://github.com/jsx-eslint/eslint-plugin-react)<br>	- [ChakraUI](https://github.com/yukukotani/eslint-plugin-chakra-ui)<br>	<br>[[Lint]]<br>#Chore
 
 
 ## DONE
 
+- [ ] Incorporar un test E2E accesibilidad<br><br>[[E2E Acesibilidad]]<br>#Emergent<br>#Refactor <br>#Pomodoros_4
+- [ ] Eliminar todos los warnings y errores identificados por el Linter<br><br>[[Lint]]<br>#Chore
+- [ ] Poner eslint con los plugins:<br>	- [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)<br>	- [React](https://github.com/jsx-eslint/eslint-plugin-react)<br>	- [ChakraUI](https://github.com/yukukotani/eslint-plugin-chakra-ui)<br>	<br>[[Lint]]<br>#Chore<br>Los de chackra no funcionan
 - [ ] Usar asercion de no nulo <br>Cambiar en :<br>- src/components/login/CredentialsCheck.tsx:<br>- src/components/login/Password.tsx:<br><br>[[as String en placeholders]]<br>#Chore
 - [ ] [[E2E Acesibilidad]]<br>#Concern
 - [ ] [[Lint]]<br>#Concern

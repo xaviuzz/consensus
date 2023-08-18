@@ -17,11 +17,13 @@ const App: React.FC = () => {
         >
           <BrowserRouter>
             <Header />
-            <Routes>
-              <Route path={Settings.loginPath()} element={<Login />} />
-              <Route path="/agora" element={<Agora />} />
-              <Route path="/" element={<Agora />} />
-            </Routes>
+            <Box as='main'>
+              <Routes>
+                <Route path={Settings.loginPath()} element={<Login />} />
+                <Route path="/agora" element={<Agora />} />
+                <Route path="/" element={<Agora />} />
+              </Routes>
+            </Box>
           </BrowserRouter>
         </Box>
       </WithIdentity>
