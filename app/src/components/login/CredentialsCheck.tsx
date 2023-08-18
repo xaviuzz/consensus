@@ -55,7 +55,7 @@ const CredentialsCheck: React.FC = () => {
         placeholder={t('login.placeholder')!} 
         onChange={(e)=>{setLogin(e.target.value)}}
       />
-      <Password setPassword={setPassword}/>
+      <Password onChange={setPassword}/>
       <Submit ready={ready} onClick={check}/>
     </VStack>
 

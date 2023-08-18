@@ -5,10 +5,10 @@ import { useTranslation } from 'react-i18next'
 import React from 'react'
 
 interface PasswordProps{
-  setPassword:(value:string)=>void
+  onChange:(value:string)=>void
 }
 
-const Password:React.FC<PasswordProps>=({setPassword})=>{
+const Password:React.FC<PasswordProps>=({onChange})=>{
   const [show, setShow] = useState<boolean>(false)
   const { t } = useTranslation()
   const passType = (): string => {
@@ -34,7 +34,7 @@ const Password:React.FC<PasswordProps>=({setPassword})=>{
       <Input
         type={passType()}
         placeholder={t('password.placeholder')!}
-        onChange={(e)=>{setPassword(e.target.value)}}
+        onChange={(e)=>{onChange(e.target.value)}}
         role="textbox"
       />
       <InputRightElement>

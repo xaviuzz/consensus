@@ -30,7 +30,7 @@ class SUT {
   static spy =  vi.fn()
 
   static render() {
-    render(<Password setPassword={this.spy}/>)
+    render(<Password onChange={this.spy}/>)
   }
 
   static input(){
