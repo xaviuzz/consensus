@@ -1,10 +1,10 @@
-import { Avatar, Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react"
-import React from "react"
-import { useIdentity } from "../../context/identity"
-import Stash from "../../infrastructure/stash"
-import { useNavigate } from "react-router-dom"
-import Settings from "../../infrastructure/settings"
-import { useTranslation } from "react-i18next"
+import { Avatar, Menu, MenuButton, MenuItem, MenuList } from '@chakra-ui/react'
+import React from 'react'
+import { useIdentity } from '../../context/identity'
+import Stash from '../../infrastructure/stash'
+import { useNavigate } from 'react-router-dom'
+import Settings from '../../infrastructure/settings'
+import { useTranslation } from 'react-i18next'
 
 
 const Identity: React.FC = () => {
@@ -21,13 +21,13 @@ const Identity: React.FC = () => {
   if (!handle) return(<></>)
   return (
     <Menu>
-  <MenuButton >
-    <Avatar name={handle}/>
-  </MenuButton>
-  <MenuList>
-    <MenuItem onClick={logout}>{t('logout.action')}</MenuItem>
-  </MenuList>
-</Menu>
+      <MenuButton >
+        <Avatar name={handle}/>
+      </MenuButton>
+      <MenuList>
+        <MenuItem onClick={logout}>{t('logout.action')}</MenuItem>
+      </MenuList>
+    </Menu>
   )
 }
 

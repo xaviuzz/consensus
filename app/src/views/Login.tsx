@@ -1,6 +1,6 @@
-import { Box } from "@chakra-ui/react"
-import React from "react"
-import CredentialsCheck from "../components/login/CredentialsCheck"
+import { Box } from '@chakra-ui/react'
+import React from 'react'
+import CredentialsCheck from '../components/login/CredentialsCheck'
 
 const Login: React.FC = () => {
   return (

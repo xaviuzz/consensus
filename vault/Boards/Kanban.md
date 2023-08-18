@@ -22,7 +22,6 @@ kanban-plugin: basic
 
 ## TODO
 
-- [ ] Poner eslint con los plugins:<br>	- [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)<br>	- [React](https://github.com/jsx-eslint/eslint-plugin-react)<br>	- [ChakraUI](https://github.com/yukukotani/eslint-plugin-chakra-ui)<br>	<br>[[Lint]]<br>#Chore
 - [ ] Eliminar todos los warnings y errores identificados por el Linter<br><br>[[Lint]]<br>#Chore
 - [ ] Incorporar un test E2E accesibilidad<br><br>[[E2E Acesibilidad]]<br>#Emergent
 - [ ] cambiar el nombre setPassword como prop en password<br>/app/src/components/login/Password.tsx<br>#Chore
@@ -30,6 +29,7 @@ kanban-plugin: basic
 
 ## DOING
 
+- [ ] Poner eslint con los plugins:<br>	- [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)<br>	- [React](https://github.com/jsx-eslint/eslint-plugin-react)<br>	- [ChakraUI](https://github.com/yukukotani/eslint-plugin-chakra-ui)<br>	<br>[[Lint]]<br>#Chore
 
 
 ## DONE

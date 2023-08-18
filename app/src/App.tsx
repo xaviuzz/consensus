@@ -1,11 +1,11 @@
-import React from "react"
-import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Agora from "./views/Agora"
-import Login from "./views/Login"
-import Settings from "./infrastructure/settings"
-import Header from "./components/header/Header"
-import { Box, ChakraProvider } from "@chakra-ui/react"
-import { WithIdentity } from "./context/identity"
+import React from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Agora from './views/Agora'
+import Login from './views/Login'
+import Settings from './infrastructure/settings'
+import Header from './components/header/Header'
+import { Box, ChakraProvider } from '@chakra-ui/react'
+import { WithIdentity } from './context/identity'
 const App: React.FC = () => {
 
   return (
@@ -16,7 +16,7 @@ const App: React.FC = () => {
           minH={'95vh'}
         >
           <BrowserRouter>
-          <Header />
+            <Header />
             <Routes>
               <Route path={Settings.loginPath()} element={<Login />} />
               <Route path="/agora" element={<Agora />} />

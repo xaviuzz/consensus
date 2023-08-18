@@ -1,7 +1,8 @@
-import { ViewIcon, ViewOffIcon } from "@chakra-ui/icons"
-import { InputGroup, Input, InputRightElement, IconButton } from "@chakra-ui/react"
-import { useState } from "react"
-import { useTranslation } from "react-i18next"
+import { ViewIcon, ViewOffIcon } from '@chakra-ui/icons'
+import { InputGroup, Input, InputRightElement, IconButton } from '@chakra-ui/react'
+import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
+import React from 'react'
 
 interface PasswordProps{
   setPassword:(value:string)=>void
@@ -30,20 +31,20 @@ const Password:React.FC<PasswordProps>=({setPassword})=>{
   }
   return (
     <InputGroup>
-        <Input
-          type={passType()}
-          placeholder={t('password.placeholder')!}
-          onChange={(e)=>{setPassword(e.target.value)}}
-          role="textbox"
+      <Input
+        type={passType()}
+        placeholder={t('password.placeholder')!}
+        onChange={(e)=>{setPassword(e.target.value)}}
+        role="textbox"
+      />
+      <InputRightElement>
+        <IconButton
+          onClick={toggle}
+          aria-label={passLabel()}
+          icon={passIcon()}
         />
-        <InputRightElement>
-          <IconButton
-            onClick={toggle}
-            aria-label={passLabel()}
-            icon={passIcon()}
-          />
-        </InputRightElement>
-      </InputGroup>
+      </InputRightElement>
+    </InputGroup>
   )
 }
 

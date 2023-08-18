@@ -11,9 +11,12 @@
             "id": "2b4b2ab80e8afe92",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Boards/Kanban.md"
+                "file": "Journal/2023-08-18.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -90,8 +93,8 @@
   },
   "active": "2b4b2ab80e8afe92",
   "lastOpenFiles": [
-    "Journal/2023-08-18.md",
     "Boards/Kanban.md",
+    "Journal/2023-08-18.md",
     "Templates/Mise en Place.md",
     "Docs/Concerns/as String en placeholders.md",
     "Templates/PBI.md",

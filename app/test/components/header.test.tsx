@@ -1,12 +1,12 @@
-import { render, screen } from "@testing-library/react"
-import React from "react"
-import Header from "../../src/components/header/Header"
-import { MemoryRouter } from "react-router-dom"
+import { render, screen } from '@testing-library/react'
+import React from 'react'
+import Header from '../../src/components/header/Header'
+import { MemoryRouter } from 'react-router-dom'
 
-describe("Header", () => {
-  it("has the name of the app", () => {
+describe('Header', () => {
+  it('has the name of the app', () => {
     SUT.render()
-    const name = screen.getByText("CONSENSUS")
+    const name = screen.getByText('CONSENSUS')
     expect(name).toBeInTheDocument()
   })
   

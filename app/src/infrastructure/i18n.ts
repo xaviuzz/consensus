@@ -1,5 +1,5 @@
-import { default as i18n } from "i18next";
-import { initReactI18next } from "react-i18next";
+import { default as i18n } from 'i18next'
+import { initReactI18next } from 'react-i18next'
 
 i18n
   .use(initReactI18next) 
@@ -31,11 +31,11 @@ i18n
         }
       }
     },
-    lng: "ca",
-    fallbackLng: "es",
+    lng: 'ca',
+    fallbackLng: 'es',
 
     interpolation: {
       escapeValue: false 
     }
-  });
+  })
 

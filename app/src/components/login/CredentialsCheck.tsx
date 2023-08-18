@@ -1,12 +1,12 @@
-import { Input, VStack, useToast } from "@chakra-ui/react"
-import React, { useEffect, useState } from "react"
-import { useTranslation } from "react-i18next"
-import { useNavigate } from "react-router-dom"
-import Identity from "../../services/Identity"
-import Helper from "../shared/helper"
-import Password from "./Password"
+import { Input, VStack, useToast } from '@chakra-ui/react'
+import React, { useEffect, useState } from 'react'
+import { useTranslation } from 'react-i18next'
+import { useNavigate } from 'react-router-dom'
+import Identity from '../../services/Identity'
+import Helper from '../shared/helper'
+import Password from './Password'
 import Submit from './Submit'
-import { useIdentity } from "../../context/identity"
+import { useIdentity } from '../../context/identity'
 import jwtDecode from 'jwt-decode'
 
 const CredentialsCheck: React.FC = () => {
@@ -20,7 +20,7 @@ const CredentialsCheck: React.FC = () => {
 
   useEffect(()=>{
     setReady(amIValid())
-  },[login,password])
+  },[ login, password])
 
   const amIValid=():boolean=>{
     const loginOk = notEmpty(login)
@@ -44,6 +44,7 @@ const CredentialsCheck: React.FC = () => {
 
   const  decode=(token:string)=>{
     if (!token) return
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const decoded:any = jwtDecode(token)
     setHandle(decoded!.payload)
   }

@@ -7,7 +7,7 @@ interface IdentityContextAPI {
 
 const IdentityContext = React.createContext<IdentityContextAPI>({
   handle: '',
-  setHandle: (handle:string)=>{}
+  setHandle: (handle:string)=>{handle}
 })
 
 interface withIdentityProps {

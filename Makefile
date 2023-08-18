@@ -20,3 +20,9 @@ test:
 
 e2e:
 	docker compose run consensus-e2e npm run test
+
+lint:
+	docker-compose exec consensus-app npm run lint
+
+fix:
+	docker-compose exec consensus-app npm run lint-fix

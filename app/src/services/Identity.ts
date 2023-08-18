@@ -1,4 +1,4 @@
-import Stash from "../infrastructure/stash"
+import Stash from '../infrastructure/stash'
 
 type IdentityData={
   handle: string
@@ -24,7 +24,7 @@ class Identity{
     const options = {
       method: 'POST',
       headers: {
-        "Content-Type": "application/json",
+        'Content-Type': 'application/json',
       },
       body: JSON.stringify({message: {login,password}})
     }
