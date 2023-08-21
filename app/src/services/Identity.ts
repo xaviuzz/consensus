@@ -1,9 +1,5 @@
 import Stash from '../infrastructure/stash'
 
-type IdentityData={
-  handle: string
-}
-
 class Identity{
 
   private static readonly BASE_URL = 'http://localhost:3000'
@@ -14,23 +10,17 @@ class Identity{
     return token != ''
   }
 
-  public static data():IdentityData{
-    return {
-      handle: Stash.retrieveHandle()
-    }
-  }
-
   public static async check(login:string,password:string):Promise<string>{
     const options = {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({message: {login,password}})
+      body: JSON.stringify({data: {login,password}})
     }
     const response: Response = await fetch( this.BASE_URL + '/login', options)
     const parsed = await response.json()
-    const token = parsed.message.token.trim()
+    const token = parsed.data.token.trim()
     if(token) {
       Stash.saveToken(token)
     }
