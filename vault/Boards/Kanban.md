@@ -22,18 +22,18 @@ kanban-plugin: basic
 
 ## TODO
 
-- [ ] Middleware que setea data para las routes en API [[Quiero tener un mensaje estructurado]]<br>#Emergent
 - [ ] Usar el Mensaje para no autorizado [[Quiero tener un mensaje estructurado]]<br>#Chore
 - [ ] Usar en el servicio de identity el mensaje [[Quiero tener un mensaje estructurado]]<br>#Emergent
 
 
 ## DOING
 
-- [ ] Cambiar en API Message por Data<br>[[Quiero tener un mensaje estructurado]]<br>#Chore
+- [ ] Middleware que setea data para las routes en API <br>En vez de un middleware sera un helper<br>[[Quiero tener un mensaje estructurado]]<br>#Emergent
 
 
 ## DONE
 
+- [ ] Cambiar en API Message por Data<br>[[Quiero tener un mensaje estructurado]]<br>#Chore
 - [ ] El lintado propio de chackra no funciona y me importa un carajo<br>#Concern
 - [ ] cambiar el nombre setPassword como prop en password<br>/app/src/components/login/Password.tsx<br>#Chore
 - [ ] Incorporar un test E2E accesibilidad<br><br>[[E2E Acesibilidad]]<br>#Emergent<br>#Refactor <br>#Pomodoros_4

@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "7f181e51134b7144",
+        "id": "2c340424c9e0cd3c",
         "type": "tabs",
-        "dimension": 99.99999999999999,
         "children": [
           {
-            "id": "f7c1750e7417a689",
+            "id": "d67d4030a26896ce",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Boards/Kanban.md"
+                "file": "Journal/2023-08-21.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -89,11 +91,12 @@
       "graph:Open graph view": false
     }
   },
-  "active": "8bc3567a6744668d",
+  "active": "d67d4030a26896ce",
   "lastOpenFiles": [
-    "Docs/Concerns/Quiero tener un mensaje estructurado.md",
-    "Boards/Kanban.md",
+    "Templates/Time.md",
     "Journal/2023-08-21.md",
+    "Boards/Kanban.md",
+    "Docs/Concerns/Quiero tener un mensaje estructurado.md",
     "Journal/2023-07-18.md",
     "Journal/2023-08-18.md",
     "Docs/Concerns/Lint.md",
@@ -117,7 +120,6 @@
     "Docs/Notes/La alegria de programar.md",
     "Docs/Notes/I18Next.md",
     "Docs/Notes/eslint.md",
-    "Docs/Notes/ChakraUI.md",
     "Docs/Notes",
     "Docs/Tecnicas",
     "Docs/Acuerdos",
