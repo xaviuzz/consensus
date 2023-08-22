@@ -1,9 +1,10 @@
 import { NextFunction, Request, Response } from "express"
 import { i18n } from "i18next"
+import Message from "./message"
 
 const changer = (request: Request, response: Response, next: NextFunction)=> {
-  if(!request.body.meta)return next()
-  if(!request.body.meta.locale)return next()
+  const meta = Message.metaFrom(request)
+  if(!meta.locale)return next()
 
   const locale: string = request.body.meta.locale
   const translator: i18n = request.i18n

@@ -7,6 +7,9 @@ class Message{
   public static dataFrom(request:Request):any{   
     return request.body.data
   }
+  public static metaFrom(request:Request):any{   
+    return request.body.metadata
+  }
 
   constructor (data:any, metadata:any = {}){
     this.data = data
