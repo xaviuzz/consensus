@@ -6,7 +6,6 @@ kanban-plugin: basic
 
 ## CONCERNS
 
-- [ ] [[Quiero tener un mensaje estructurado]]<br>#Concern
 - [ ] Donde persisto los usuarios?<br>#Concern
 - [ ] La existencia de helper solo para poder testear al usar el Toast de chakraUI<br>#Concern
 - [ ] JWT sin caducidad<br>#Concern
@@ -14,6 +13,7 @@ kanban-plugin: basic
 - [ ] Test necesita la `<MemoryRouter>`<br>#Concern
 - [ ] Para poder hacer IC tenemos que desplegar<br>#Concern
 - [ ] Testeo de contextos<br>#Concern
+- [ ] Usar Middleware para dar el mensaje<br>#Concern
 
 
 ## BLOCKED
@@ -22,7 +22,6 @@ kanban-plugin: basic
 
 ## TODO
 
-- [ ] Usar en el servicio de identity el mensaje [[Quiero tener un mensaje estructurado]]<br>#Emergent
 
 
 ## DOING
@@ -31,9 +30,11 @@ kanban-plugin: basic
 
 ## DONE
 
+- [ ] Usar en el servicio de identity el mensaje [[Quiero tener un mensaje estructurado]]<br>#Emergent
 - [ ] Usar el Mensaje para no autorizado [[Quiero tener un mensaje estructurado]]<br>#Chore
 - [ ] Middleware que setea data para las routes en API <br>En vez de un middleware sera un helper<br>[[Quiero tener un mensaje estructurado]]<br>#Emergent
 - [ ] Cambiar en API Message por Data<br>[[Quiero tener un mensaje estructurado]]<br>#Chore
+- [ ] [[Quiero tener un mensaje estructurado]]<br>#Concern
 - [ ] El lintado propio de chackra no funciona y me importa un carajo<br>#Concern
 - [ ] cambiar el nombre setPassword como prop en password<br>/app/src/components/login/Password.tsx<br>#Chore
 - [ ] Incorporar un test E2E accesibilidad<br><br>[[E2E Acesibilidad]]<br>#Emergent<br>#Refactor <br>#Pomodoros_4
