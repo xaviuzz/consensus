@@ -4,47 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "0ea6cba76f7adcf3",
+        "id": "f5d54121c52ca1e5",
         "type": "tabs",
         "children": [
           {
-            "id": "199bb897f15107f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PBI/Propose a consensus.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f220be8f4c8fcb89",
+            "id": "ddad784db524726f",
             "type": "leaf",
             "state": {
               "type": "kanban",
               "state": {
-                "file": "Boards/Product Map.md"
-              }
-            }
-          },
-          {
-            "id": "6499e3b5863a1968",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/2023-08-21.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Boards/Backlog.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,10 +88,13 @@
       "graph:Open graph view": false
     }
   },
-  "active": "f220be8f4c8fcb89",
+  "active": "ddad784db524726f",
   "lastOpenFiles": [
-    "Boards/Backlog.md",
+    "PBI/Acceso seguro.md",
     "PBI/Propose a consensus.md",
+    "Templates/PBI.md",
+    "Boards/Product Map.md",
+    "Boards/Backlog.md",
     "Boards/Kanban.md",
     "Docs/CONSENSUS.md",
     "Docs/Notes/La alegria de programar.md",
@@ -132,7 +108,6 @@
     "Docs/Concerns/E2E Acesibilidad.md",
     "Docs/Concerns/as String en placeholders.md",
     "Templates/Mise en Place.md",
-    "Templates/PBI.md",
     "Docs/Notes/Acuerdos.md",
     "Journal/2023-08-17.md",
     "Docs/Notes/WAI.md",
@@ -141,9 +116,7 @@
     "Templates/Date.md",
     "Docs/Releases/3_A jugar!.md",
     "Docs/Releases/2_MVP.md",
-    "Docs/Releases/1_Walking Skeleton.md",
     "Boards/Release Map.canvas",
-    "Docs/Notes/React.md",
     "Docs/Notes",
     "Docs/Tecnicas",
     "Docs/Acuerdos",

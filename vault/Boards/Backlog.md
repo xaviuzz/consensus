@@ -6,7 +6,6 @@ kanban-plugin: basic
 
 ## Harvest
 
-- [ ] [[Propose a consensus]]
 - [ ] [[Proposals list]]
 - [ ] [[Show proposal]]
 - [ ] [[Notify new proposal]]
@@ -15,6 +14,7 @@ kanban-plugin: basic
 
 ## Proposed
 
+- [ ] [[Propose a consensus]]
 
 
 ## Todo
