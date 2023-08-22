@@ -20,14 +20,5 @@ services:
     ports:
       - 3000:3000
     container_name: consensus-api
-
-  consensus-e2e:
-    build: ./e2e
-    volumes:
-      - ./e2e:/e2e
-      - /e2e/node_modules/
-    ports:
-      - 9223:9223
-    container_name: consensus-e2e
     
     

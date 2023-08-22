@@ -11,13 +11,40 @@
             "id": "199bb897f15107f9",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PBI/Propose a consensus.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f220be8f4c8fcb89",
+            "type": "leaf",
+            "state": {
               "type": "kanban",
               "state": {
-                "file": "Boards/Kanban.md"
+                "file": "Boards/Product Map.md"
+              }
+            }
+          },
+          {
+            "id": "6499e3b5863a1968",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journal/2023-08-21.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,14 +115,17 @@
       "graph:Open graph view": false
     }
   },
-  "active": "199bb897f15107f9",
+  "active": "f220be8f4c8fcb89",
   "lastOpenFiles": [
-    "Journal/2023-08-22.md",
-    "Boards/Kanban.md",
     "Boards/Backlog.md",
+    "PBI/Propose a consensus.md",
+    "Boards/Kanban.md",
+    "Docs/CONSENSUS.md",
+    "Docs/Notes/La alegria de programar.md",
     "Journal/2023-08-21.md",
-    "Templates/Time.md",
     "Docs/Concerns/Quiero tener un mensaje estructurado.md",
+    "Journal/2023-08-22.md",
+    "Templates/Time.md",
     "Journal/2023-07-18.md",
     "Journal/2023-08-18.md",
     "Docs/Concerns/Lint.md",
@@ -104,7 +134,6 @@
     "Templates/Mise en Place.md",
     "Templates/PBI.md",
     "Docs/Notes/Acuerdos.md",
-    "Docs/CONSENSUS.md",
     "Journal/2023-08-17.md",
     "Docs/Notes/WAI.md",
     "Docs/Notes/test E2E.md",
@@ -115,8 +144,6 @@
     "Docs/Releases/1_Walking Skeleton.md",
     "Boards/Release Map.canvas",
     "Docs/Notes/React.md",
-    "Docs/Notes/Naturaleza del Producto.md",
-    "Docs/Notes/La alegria de programar.md",
     "Docs/Notes",
     "Docs/Tecnicas",
     "Docs/Acuerdos",
