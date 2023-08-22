@@ -4,19 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2c340424c9e0cd3c",
+        "id": "0ea6cba76f7adcf3",
         "type": "tabs",
         "children": [
           {
-            "id": "d67d4030a26896ce",
+            "id": "199bb897f15107f9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Journal/2023-08-21.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Boards/Kanban.md"
               }
             }
           }
@@ -67,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -91,11 +88,13 @@
       "graph:Open graph view": false
     }
   },
-  "active": "d67d4030a26896ce",
+  "active": "199bb897f15107f9",
   "lastOpenFiles": [
-    "Templates/Time.md",
-    "Journal/2023-08-21.md",
+    "Journal/2023-08-22.md",
     "Boards/Kanban.md",
+    "Boards/Backlog.md",
+    "Journal/2023-08-21.md",
+    "Templates/Time.md",
     "Docs/Concerns/Quiero tener un mensaje estructurado.md",
     "Journal/2023-07-18.md",
     "Journal/2023-08-18.md",
@@ -118,8 +117,6 @@
     "Docs/Notes/React.md",
     "Docs/Notes/Naturaleza del Producto.md",
     "Docs/Notes/La alegria de programar.md",
-    "Docs/Notes/I18Next.md",
-    "Docs/Notes/eslint.md",
     "Docs/Notes",
     "Docs/Tecnicas",
     "Docs/Acuerdos",
