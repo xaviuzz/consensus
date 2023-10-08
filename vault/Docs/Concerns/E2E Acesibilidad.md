@@ -7,7 +7,7 @@ Actualmente el proyecto no cumple con los estandares de accesibilidad [[WAI]]
 
 
 ## TradeOff
-- Ya estamos usando [[Playwright]] para los [[test E2E]] y este tien un plugin para testear la accesibilidad que ya esta implementado en https://github.com/xaviuzz/kanbang
+- Ya estamos usando [[Playwright]] para los [[test E2E]] y este tiene un plugin para testear la accesibilidad que ya esta implementado en https://github.com/xaviuzz/kanbang
 - El uso de un [[test E2E]] haria que se rompiera el Build
 - De momento no tenemos CI operativa
 

@@ -10,6 +10,7 @@ kanban-plugin: basic
 - [ ] [[Show proposal]]
 - [ ] [[Notify new proposal]]
 - [ ] [[Identify actions]]
+- [ ] [[Secure JWT]]
 
 
 ## Proposed

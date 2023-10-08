@@ -27,7 +27,6 @@ sort file.name ASC
 - [[eslint]]
 - [[I18Next]]
 - [[Playwright]]
-- 
 
 ## Concerns
 ```dataview

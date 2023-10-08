@@ -6,14 +6,7 @@ kanban-plugin: basic
 
 ## CONCERNS
 
-- [ ] Donde persisto los usuarios?<br>#Concern
-- [ ] La existencia de helper solo para poder testear al usar el Toast de chakraUI<br>#Concern
-- [ ] JWT sin caducidad<br>#Concern
-- [ ] datos y codigo mezclados en I18n app<br>#Concern
-- [ ] Test necesita la `<MemoryRouter>`<br>#Concern
 - [ ] Para poder hacer IC tenemos que desplegar<br>#Concern
-- [ ] Testeo de contextos<br>#Concern
-- [ ] Usar Middleware para dar el mensaje<br>#Concern
 
 
 ## BLOCKED
@@ -22,6 +15,7 @@ kanban-plugin: basic
 
 ## TODO
 
+- [ ] datos y codigo mezclados en I18n app<br>#Concern #Chore
 
 
 ## DOING
@@ -30,6 +24,10 @@ kanban-plugin: basic
 
 ## DONE
 
+- [ ] Test necesita la `<MemoryRouter>`<br><br>No parece que pueda ser de otra manera.<br>#Concern
+- [ ] JWT sin caducidad<br>Convertido en [[Secure JWT]] para #Someday <br><br>#Concern
+- [ ] La existencia de helper solo para poder testear al usar el Toast de chakraUI<br><br>Esta bien asi, no podriamos probarlo de otra manera.<br><br>#Concern
+- [ ] [[Donde persisto los usuarios]]<br>#Concern
 - [ ] Usar en el servicio de identity el mensaje [[Quiero tener un mensaje estructurado]]<br>#Emergent
 - [ ] Usar el Mensaje para no autorizado [[Quiero tener un mensaje estructurado]]<br>#Chore
 - [ ] Middleware que setea data para las routes en API <br>En vez de un middleware sera un helper<br>[[Quiero tener un mensaje estructurado]]<br>#Emergent
@@ -66,6 +64,7 @@ kanban-plugin: basic
 
 ## GONE
 
+- [ ] Usar Middleware para dar el mensaje<br>#Concern
 - [ ] Seleccionar iconos<br>[[Boilerplate]]<br>#Chore
 - [ ] Falla la IC<br>#Bug
 - [ ] poner lanzamiento de test por nombre en el makefile<br>#Chore<br>En realidad ya estaba

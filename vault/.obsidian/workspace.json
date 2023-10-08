@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f5d54121c52ca1e5",
+        "id": "d50d03267df32c02",
         "type": "tabs",
         "children": [
           {
-            "id": "ddad784db524726f",
+            "id": "4f49db771f41faea",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Boards/Backlog.md"
+                "file": "Journal/2023-10-08.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -68,7 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5
+    "width": 327.5
   },
   "right": {
     "id": "de063b535d01aa6d",
@@ -88,35 +91,36 @@
       "graph:Open graph view": false
     }
   },
-  "active": "ddad784db524726f",
+  "active": "4f49db771f41faea",
   "lastOpenFiles": [
-    "PBI/Acceso seguro.md",
-    "PBI/Propose a consensus.md",
-    "Templates/PBI.md",
-    "Boards/Product Map.md",
-    "Boards/Backlog.md",
     "Boards/Kanban.md",
-    "Docs/CONSENSUS.md",
-    "Docs/Notes/La alegria de programar.md",
-    "Journal/2023-08-21.md",
-    "Docs/Concerns/Quiero tener un mensaje estructurado.md",
-    "Journal/2023-08-22.md",
-    "Templates/Time.md",
-    "Journal/2023-07-18.md",
-    "Journal/2023-08-18.md",
-    "Docs/Concerns/Lint.md",
-    "Docs/Concerns/E2E Acesibilidad.md",
-    "Docs/Concerns/as String en placeholders.md",
-    "Templates/Mise en Place.md",
-    "Docs/Notes/Acuerdos.md",
-    "Journal/2023-08-17.md",
-    "Docs/Notes/WAI.md",
-    "Docs/Notes/test E2E.md",
-    "Docs/Notes/Playwright.md",
-    "Templates/Date.md",
+    "Journal/2023-10-08.md",
+    "Boards/Backlog.md",
+    "PBI/Secure JWT.md",
+    "Docs/Concerns/Donde persisto los usuarios.md",
     "Docs/Releases/3_A jugar!.md",
-    "Docs/Releases/2_MVP.md",
+    "Docs/Notes/Acuerdos.md",
+    "Docs/Notes/Naturaleza del Producto.md",
+    "Boards/Product Map.md",
+    "PBI/Propose a consensus.md",
+    "Docs/Concerns/E2E Acesibilidad.md",
+    "Templates/Concern.md",
+    "Docs/CONSENSUS.md",
+    "Templates/Mise en Place.md",
+    "Docs/Notes/La alegria de programar.md",
     "Boards/Release Map.canvas",
+    "PBI/Identify actions.md",
+    "Boards/MoodBoard.canvas",
+    "Journal/2023-08-18.md",
+    "Journal/2023-08-22.md",
+    "Journal/2023-08-23.md",
+    "Journal/2023-08-03.md",
+    "Journal/2023-08-02.md",
+    "Journal/2023-08-01.md",
+    "Journal/2023-07-28.md",
+    "Journal/2023-07-27.md",
+    "Journal/2023-07-25.md",
+    "Journal/2023-07-24.md",
     "Docs/Notes",
     "Docs/Tecnicas",
     "Docs/Acuerdos",
@@ -127,7 +131,6 @@
     "Assets/Pasted image 20230717213707.png",
     "Assets/Pasted image 20230717213540.png",
     "Assets/Pasted image 20230717213500.png",
-    "Boards/MoodBoard.canvas",
     "Assets/Pasted image 20230717215310.png",
     "Assets/Pasted image 20230717215131.png",
     "Assets/Pasted image 20230717214849.png",
